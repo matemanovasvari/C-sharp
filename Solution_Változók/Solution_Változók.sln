@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_00", "Feladat_00\Feladat_00.csproj", "{3B29D937-8629-4B30-AED7-641225523921}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Változók-Feladat_00", "Feladat_00\Változók-Feladat_00.csproj", "{3B29D937-8629-4B30-AED7-641225523921}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_01", "Feladat_01\Feladat_01.csproj", "{607E6F31-BAF3-49A3-9270-7A2299F16943}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Változók-Feladat_01", "Feladat_01\Változók-Feladat_01.csproj", "{607E6F31-BAF3-49A3-9270-7A2299F16943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_02", "Feladat_02\Feladat_02.csproj", "{B40DA5C5-1B51-46A5-AA69-A45A14956327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Változók-Feladat_02", "Feladat_02\Változók-Feladat_02.csproj", "{B40DA5C5-1B51-46A5-AA69-A45A14956327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Változók-Feladat_03", "Feladat_03\Változók-Feladat_03.csproj", "{F4084BE0-F7FE-4130-88F1-96AED1BFEE10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Változók-Feladat_04", "Változók-Feladat_04\Változók-Feladat_04.csproj", "{59501B21-B408-4DEC-B9BC-2271CA4D49DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{B40DA5C5-1B51-46A5-AA69-A45A14956327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B40DA5C5-1B51-46A5-AA69-A45A14956327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B40DA5C5-1B51-46A5-AA69-A45A14956327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4084BE0-F7FE-4130-88F1-96AED1BFEE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4084BE0-F7FE-4130-88F1-96AED1BFEE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4084BE0-F7FE-4130-88F1-96AED1BFEE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4084BE0-F7FE-4130-88F1-96AED1BFEE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59501B21-B408-4DEC-B9BC-2271CA4D49DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59501B21-B408-4DEC-B9BC-2271CA4D49DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59501B21-B408-4DEC-B9BC-2271CA4D49DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59501B21-B408-4DEC-B9BC-2271CA4D49DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
