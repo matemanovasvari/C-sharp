@@ -8,7 +8,7 @@ if (firstNumber > secondNumber)
 {
     Console.Write($"{secondNumber}, {firstNumber}");
 }
-else if (firstNumber < secondNumber)
+else
 {
     Console.Write($"{firstNumber}, {secondNumber}");
 }

@@ -6,11 +6,11 @@ int secondNumber = int.Parse(Console.ReadLine());
 
 if (firstNumber > secondNumber)
 {
-    Console.Write($"{firstNumber} is bigger than {secondNumber}");
+    Console.Write($"{firstNumber}");
 }
-else if (firstNumber < secondNumber)
+else
 {
-    Console.Write($"{secondNumber} is bigger than {firstNumber}");
+    Console.Write($"{secondNumber}");
 }
 
 Console.ReadKey();
