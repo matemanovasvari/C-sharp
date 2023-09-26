@@ -11,9 +11,9 @@ Console.Write("Please type in another number!: ");
 int R2 = int.Parse(Console.ReadLine());
 
 Console.Write("Please choose a type of connection from the following:\nlinear\nparalell");
-string typeOf = Console.ReadLine().ToLower();
+string typeOfConnection = Console.ReadLine().ToLower();
 
-double? result = typeOf switch
+double? result = typeOfConnection switch
 {
     "p" => ((double)(R1 + R2))/(R1 * R2),
     "l" => R1 + R2,
