@@ -12,3 +12,17 @@ C:\Users\b1nagmat2\Desktop\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Fel
 C:\Users\b1nagmat2\Desktop\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.pdb
 C:\Users\b1nagmat2\Desktop\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.genruntimeconfig.cache
 C:\Users\b1nagmat2\Desktop\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\ref\Feladat_1.1.dll
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\bin\Debug\net7.0\Feladat_1.1.exe
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\bin\Debug\net7.0\Feladat_1.1.deps.json
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\bin\Debug\net7.0\Feladat_1.1.runtimeconfig.json
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\bin\Debug\net7.0\Feladat_1.1.dll
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\bin\Debug\net7.0\Feladat_1.1.pdb
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.AssemblyInfoInputs.cache
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.AssemblyInfo.cs
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.csproj.CoreCompileInputs.cache
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.dll
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\refint\Feladat_1.1.dll
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.pdb
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\Feladat_1.1.genruntimeconfig.cache
+J:\C-sharp\05.2 Ciklusol do while\Solution_Ciklusok_do-while\Feladat_1.1\obj\Debug\net7.0\ref\Feladat_1.1.dll
