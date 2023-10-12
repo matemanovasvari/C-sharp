@@ -18,3 +18,12 @@ while (number.ToString().Length != 3 || !isNumber)
         Console.WriteLine("NaN");
     }
 }
+
+if (number % 7 == 0)
+{
+    Console.WriteLine("Can be divided by 7");
+}
+else
+{
+    Console.WriteLine("Cannot be divided by 7");
+}

@@ -22,7 +22,7 @@ do
     {
         Console.WriteLine("NaN");
     }
-} while (maxValue == 0);
+} while (maxValue == 0 || !isNumber);
 
 do
 {
@@ -42,7 +42,7 @@ do
 
     Console.WriteLine($"The sum is: {sum}");
 
-} while (sum < maxValue);
+} while (sum < maxValue || !isNumber);
 
 Console.WriteLine($"You've inputed {numberOfInputs} times");
 

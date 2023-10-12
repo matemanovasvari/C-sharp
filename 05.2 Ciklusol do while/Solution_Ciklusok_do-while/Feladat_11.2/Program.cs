@@ -36,20 +36,16 @@ int randomNumber = random.Next(firstNumber, secondNumber);
 
 arithmeticAvegrage = firstNumber + ((secondNumber - firstNumber) / 2);
 
-if (randomNumber < arithmeticAvegrage)
+if (randomNumber > arithmeticAvegrage)
 {
-    Console.WriteLine($"{randomNumber} is further from {secondNumber}");
-}
-else if (randomNumber > arithmeticAvegrage)
-{
-    Console.WriteLine($"{randomNumber} is further from {firstNumber}");
+    Console.WriteLine($"{firstNumber} is further from {randomNumber}");
 }
 else
 {
-    Console.WriteLine($"{randomNumber} is inbetween");
+    Console.WriteLine($"{secondNumber} is further from {randomNumber}");
 }
 
-average = (double)(secondNumber + firstNumber) / 2;
+average = ((double)(secondNumber + firstNumber)) / 2;
 
 for (int i = firstNumber; i < secondNumber; i++)
 {

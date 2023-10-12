@@ -45,7 +45,7 @@ for (int i = 0; i < number + 1; i++)
 
     if (i % 7 == 3)
     {
-        Console.WriteLine($"\n{i},");
+        Console.WriteLine($"{i},");
     }
 }
 

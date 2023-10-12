@@ -12,7 +12,7 @@ int sum = 0;
 bool isNumber = false;
 int numberOfInputs = 0;
 
-while (maxValue == 0)
+while (maxValue == 0 || !isNumber)
 {
     Console.Write("Please type in a number that is a max value!: ");
     string input = Console.ReadLine();
@@ -24,7 +24,7 @@ while (maxValue == 0)
     }
 }
 
-while (sum < maxValue)
+while (sum < maxValue || !isNumber)
 {
     Console.Write("Please type in a number!: ");
     string input2 = Console.ReadLine();

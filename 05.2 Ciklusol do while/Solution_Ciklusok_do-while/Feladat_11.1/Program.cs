@@ -49,7 +49,7 @@ else
     Console.WriteLine($"{randomNumber} is inbetween");
 }
 
-average = (double)(secondNumber + firstNumber) / 2;
+average = ((double)(secondNumber + firstNumber)) / 2;
 
 for (int i = firstNumber; i < secondNumber; i++)
 {

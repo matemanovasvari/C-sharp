@@ -11,7 +11,7 @@ bool isNumber = false;
 
 while ((age < 0 && age > 99) || !isNumber)
 {
-    Console.Write("Please type in a number that is a max value!: ");
+    Console.Write("Please type in your age!: ");
     string input = Console.ReadLine();
 
     isNumber = int.TryParse(input, new CultureInfo("US-en"), out age);
