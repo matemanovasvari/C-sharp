@@ -27,12 +27,12 @@ do
 }
 while (number.ToString().Length != 2 || !isNumber);
 
-for (int i = 0; i < number + 1; i++)
+for (int i = 0; i <= number; i++)
 {
     Console.WriteLine($"{i}");
 }
 
-for (int i = 0; i < number + 1; i++)
+for (int i = 0; i <= number; i++)
 {
     if (i % 5 == 0)
     {

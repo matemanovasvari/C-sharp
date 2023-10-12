@@ -2,7 +2,6 @@
 meghaladja a 100-at. Minden bekérés után jelezni a felhasználónak a jelenlegi összeget és a
 hányadik bevitelnél tart.*/
 using System.Globalization;
-using System.Runtime.CompilerServices;
 
 int number = 0;
 int sum = 0;
@@ -22,7 +21,7 @@ do
     }
     numberOfInputs++;
 
-    sum = sum + number;
+    sum += number;
 
     Console.WriteLine($"The sum is: {sum}, You've inputed {numberOfInputs} times");
 

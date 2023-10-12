@@ -8,11 +8,12 @@ using System.Globalization;
 int firstNumber = 0;
 int secondNumber = 0;
 bool isNumber = false;
+string input = string.Empty;
 
-while (firstNumber == 0 || !isNumber)
+while (!isNumber)
 {
     Console.Write("Please type in a number!: ");
-    string input = Console.ReadLine();
+    input = Console.ReadLine();
 
     isNumber = int.TryParse(input, new CultureInfo("US-en"), out firstNumber);
     if (!isNumber)
@@ -22,12 +23,12 @@ while (firstNumber == 0 || !isNumber)
 
 }
 
-while ((secondNumber == 0 || firstNumber > secondNumber) || !isNumber)
+while (firstNumber > secondNumber || !isNumber)
 {
     Console.Write("Please type in a number!: ");
-    string input2 = Console.ReadLine();
+    input = Console.ReadLine();
 
-    isNumber = int.TryParse(input2, new CultureInfo("US-en"), out secondNumber);
+    isNumber = int.TryParse(input, new CultureInfo("US-en"), out secondNumber);
     if (!isNumber)
     {
         Console.WriteLine("NaN");
@@ -35,7 +36,7 @@ while ((secondNumber == 0 || firstNumber > secondNumber) || !isNumber)
 
 }
 
-for (int i = secondNumber; i > firstNumber - 1; i--)
+for (int i = secondNumber; i >= firstNumber - 1; i--)
 {
     Console.WriteLine(i);
 }

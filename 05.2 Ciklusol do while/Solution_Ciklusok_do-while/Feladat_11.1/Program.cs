@@ -10,7 +10,7 @@ Random random = new Random();
 int firstNumber = 0;
 int secondNumber = 0;
 bool isNumber = false;
-bool isNumber2 = false;
+string input = string.Empty;
 double arithmeticAvegrage = 0;
 double average = 0;
 int divisibleByFour = 0;
@@ -18,19 +18,28 @@ int divisibleByFour = 0;
 do
 {
     Console.WriteLine("Please type in an even number!: ");
-    string input = Console.ReadLine();
-
-    Console.WriteLine("Please type in an odd number!: ");
-    string input2 = Console.ReadLine();
+    input = Console.ReadLine();
 
     isNumber = int.TryParse(input,  out firstNumber);
-    isNumber2 = int.TryParse(input2, out secondNumber);
 
-    if (!isNumber || !isNumber2)
+    if (!isNumber)
     {
         Console.WriteLine("NaN");
     }
-} while ((firstNumber % 2 != 0 || secondNumber % 2 == 0 || secondNumber < firstNumber) || !isNumber || !isNumber2);
+} while (firstNumber % 2 != 0 || !isNumber);
+
+do
+{
+    Console.WriteLine("Please type in an even number!: ");
+    input = Console.ReadLine();
+
+    isNumber = int.TryParse(input, out secondNumber);
+
+    if (!isNumber)
+    {
+        Console.WriteLine("NaN");
+    }
+} while ((firstNumber % 2 == 0 || secondNumber < firstNumber) || !isNumber);
 
 int randomNumber = random.Next(firstNumber, secondNumber);
 

@@ -22,7 +22,7 @@ while (sum < 100)
     }
     numberOfInputs++;
 
-    sum = sum + number;
+    sum += number;
 
     Console.WriteLine($"The sum is: {sum}, You've inputed {numberOfInputs} times");
 

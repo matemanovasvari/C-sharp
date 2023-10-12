@@ -17,15 +17,16 @@ do
         Console.WriteLine("NaN");
     }
 
-    string? drink = drinkNumber switch
-    {
-        1 => "Pepsi",
-        2 => "Sprite",
-        3 => "Fanta",
-        4 => "Mirinda",
-        5 => "Canada Dry",
-        _ => null
-    };
-
-    Console.WriteLine($"Your drink is: {drink}");
 } while ((drinkNumber > 5 || drinkNumber < 1) || !isNumber);
+
+string? drink = drinkNumber switch
+{
+    1 => "Pepsi",
+    2 => "Sprite",
+    3 => "Fanta",
+    4 => "Mirinda",
+    5 => "Canada Dry",
+    _ => null
+};
+
+Console.WriteLine($"Your drink is: {drink}");

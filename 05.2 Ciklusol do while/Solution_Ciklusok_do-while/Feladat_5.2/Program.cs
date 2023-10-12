@@ -11,11 +11,12 @@ int number = 0;
 int sum = 0;
 bool isNumber = false;
 int numberOfInputs = 0;
+string input = string.Empty;
 
-while (maxValue == 0 || !isNumber)
+while (maxValue < 100 || !isNumber)
 {
     Console.Write("Please type in a number that is a max value!: ");
-    string input = Console.ReadLine();
+    input = Console.ReadLine();
 
     isNumber = int.TryParse(input, new CultureInfo("US-en"), out maxValue);
     if (!isNumber)
@@ -27,18 +28,21 @@ while (maxValue == 0 || !isNumber)
 while (sum < maxValue || !isNumber)
 {
     Console.Write("Please type in a number!: ");
-    string input2 = Console.ReadLine();
+    input = Console.ReadLine();
 
-    isNumber = int.TryParse(input2, new CultureInfo("US-en"), out number);
+    isNumber = int.TryParse(input, new CultureInfo("US-en"), out number);
     if (!isNumber)
     {
         Console.WriteLine("NaN");
         numberOfInputs--;
     }
+    else
+    {
+        numberOfInputs++;
+        sum += number;
+    }
 
-    numberOfInputs++;
-
-    sum = sum + number;
+    
 
     Console.WriteLine($"The sum is: {sum}");
 }
