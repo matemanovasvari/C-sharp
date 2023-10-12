@@ -32,7 +32,7 @@ for (int i = 0; i < number + 1; i++)
     Console.WriteLine($"{i}");
 }
 
-    for (int i = 0; i < number+1; i++)
+for (int i = 0; i < number + 1; i++)
 {
     if (i % 5 == 0)
     {
