@@ -26,8 +26,9 @@ do
 }
 while (!Isnumber || end < start);
 
-if (start % 2 != 0)
+start = start % 2 != 0 ? start : start++;
+
+for (int i = start; i <= end; i += 2)
 {
-    for (int i = start + 1; i <= end; i += 2)
-    { Console.WriteLine(i); }
+    Console.WriteLine(i); 
 }

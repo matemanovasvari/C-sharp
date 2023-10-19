@@ -7,6 +7,7 @@ int end;
 bool Isnumber = false;
 string input = string.Empty;
 int sum = 0;
+int a = 1;
 
 do
 {
@@ -28,16 +29,13 @@ do
 }
 while (!Isnumber || end < start);
 
+
 for (int i = start; i <= end; i++)
 {
-    if (i % 2 != 0)
-    {
-        sum += i;
-    }
-    else
-    {
-        sum -= i;
-    }
+    
+    sum += (i * a);
+    a *= -1;
 }
+
 
 Console.WriteLine($"{sum}");
