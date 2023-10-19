@@ -1,4 +1,7 @@
-﻿int start;
+﻿/*17 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket) majd határozzuk
+meg az intervallum átlagát.*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

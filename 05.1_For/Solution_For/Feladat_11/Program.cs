@@ -1,4 +1,7 @@
-﻿int start;
+﻿/*11 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket), majd adjuk össze e
+intervallum páros számait és írjuk ki az összege, a páratlan számok szorzatát.*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

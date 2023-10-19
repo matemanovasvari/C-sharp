@@ -1,4 +1,7 @@
-﻿int start;
+﻿/*7 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket), majd írjuk ki
+csökkenő sorrendbe a számokat az intervallumból.*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

@@ -1,4 +1,8 @@
-﻿int start;
+﻿/*18 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket). Az első elemet
+adjuk hozzá az összeghez, a másodikat vonjuk ki, a harmadikat újra adjuk hozzá az
+összeghez, a negyediket vonjuk ki az összegből … és így tovább.*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

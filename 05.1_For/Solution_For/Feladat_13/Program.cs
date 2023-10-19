@@ -1,4 +1,7 @@
-﻿int start;
+﻿/*13 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket), majd
+intervallumban ellenőrizzük, hogy a páros vagy páratlan számok összege e a nagyobb.*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

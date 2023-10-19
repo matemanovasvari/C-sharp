@@ -1,4 +1,7 @@
-﻿int start;
+﻿/*8 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket), majd írjuk ki
+növekvő sorrendbe a páratlan számokat az intervallumból.*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

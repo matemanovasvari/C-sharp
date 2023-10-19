@@ -1,4 +1,8 @@
-﻿int start;
+﻿/*16 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket) majd határozzuk
+meg a páros és a páratlan számok összegének az átlagát.
+*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

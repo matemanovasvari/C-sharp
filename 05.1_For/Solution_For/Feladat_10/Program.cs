@@ -1,4 +1,8 @@
-﻿int start;
+﻿/*10 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket), majd adjuk össze e
+intervallum számait és írjuk ki az összeget.
+Önállóan kiegészíteni: szorzat!*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

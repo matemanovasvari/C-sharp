@@ -1,4 +1,7 @@
-﻿int start;
+﻿/*12 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket), számoljuk meg,
+hogy e intervallumban hány szám osztható hárommal.*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

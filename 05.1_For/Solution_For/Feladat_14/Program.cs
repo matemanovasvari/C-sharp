@@ -1,4 +1,8 @@
-﻿int start;
+﻿/*14 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket), majd
+intervallumban ellenőrizzük, hogy az öttel vagy a héttel osztható számok összege e a
+nagyobb.*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;

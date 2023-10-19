@@ -1,4 +1,9 @@
-﻿int start;
+﻿/*15 – A felhasználótól kérjünk be egy intervallumot (kezdő és vég értéket), majd az
+intervallumban ellenőrizzük, hogy hány olyan páratlan szám van a két szám közt mely
+osztható 3-al.
+*/
+
+int start;
 int end;
 bool Isnumber = false;
 string input = string.Empty;
