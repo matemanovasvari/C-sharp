@@ -26,7 +26,7 @@ do
 }
 while (!Isnumber || end < start);
 
-start = start % 2 != 0 ? start : start++;
+start = start % 2 != 0 ? start : ++start;
 
 for (int i = start; i <= end; i += 2)
 {
