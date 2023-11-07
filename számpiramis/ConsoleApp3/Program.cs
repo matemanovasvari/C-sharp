@@ -3,18 +3,16 @@
 Console.WriteLine("How big should the pyramid be?");
 pyramidSize = int.Parse(Console.ReadLine());
 
-for (int i = -1; i < pyramidSize; i++)
+for (int i = -1; i < pyramidSize*2; i+=2)
 {
-    for(int j = -1; j < pyramidSize+i; j++)
+    for(int j = i/2; j < pyramidSize-1; j++)
     {
-        if (j < pyramidSize - i - 1)
-        {
-            Console.Write(" ");
-        }
-        else
-        {
-            Console.Write($"{j}");
-        }
+        Console.Write("\t");
     }
-    Console.Write("\n");
+    for (int k = 1; k <= i; k++)
+    {
+
+        Console.Write($"{k} \t");
+    }
+    Console.WriteLine();
 }

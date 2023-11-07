@@ -12,3 +12,17 @@ D:\Documents\Iskola\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\refint\Con
 D:\Documents\Iskola\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.pdb
 D:\Documents\Iskola\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.genruntimeconfig.cache
 D:\Documents\Iskola\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ref\ConsoleApp3.dll
+J:\C-sharp\számpiramis\ConsoleApp3\bin\Debug\net7.0\ConsoleApp3.exe
+J:\C-sharp\számpiramis\ConsoleApp3\bin\Debug\net7.0\ConsoleApp3.deps.json
+J:\C-sharp\számpiramis\ConsoleApp3\bin\Debug\net7.0\ConsoleApp3.runtimeconfig.json
+J:\C-sharp\számpiramis\ConsoleApp3\bin\Debug\net7.0\ConsoleApp3.dll
+J:\C-sharp\számpiramis\ConsoleApp3\bin\Debug\net7.0\ConsoleApp3.pdb
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.AssemblyInfoInputs.cache
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.AssemblyInfo.cs
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.csproj.CoreCompileInputs.cache
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.dll
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\refint\ConsoleApp3.dll
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.pdb
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ConsoleApp3.genruntimeconfig.cache
+J:\C-sharp\számpiramis\ConsoleApp3\obj\Debug\net7.0\ref\ConsoleApp3.dll
