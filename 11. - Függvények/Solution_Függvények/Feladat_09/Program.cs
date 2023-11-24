@@ -9,28 +9,29 @@ double huf = ExtendedConsole.ReadDouble("Kérek egy pénzösszeget forintban: ")
 
 double eur = ConvertMoneyUnit(huf, hufToEur);
 
-string unit = ReadUnit();
+Currency currency = ReadUnit();
 
-double result = unit switch
+double result = currency switch
 {
-    "JPY" => ConvertMoneyUnit(eur, jpyToEur),
-    "USD" => ConvertMoneyUnit(eur, usdToEur),
-    "CHF" => ConvertMoneyUnit(eur, chfToEur),
+    Currency.JPY => ConvertMoneyUnit(eur, jpyToEur),
+    Currency.USD => ConvertMoneyUnit(eur, usdToEur),
+    Currency.CHF => ConvertMoneyUnit(eur, chfToEur),
 };
 
-Console.WriteLine($"A megadott mennyiségű forint euróban:{eur} EUR, és a kiválasztott pénznemben: {result} {unit}");
+Console.WriteLine($"A megadott mennyiségű forint euróban:{eur} EUR, és a kiválasztott pénznemben: {result} {currency}");
 
 
 double ConvertMoneyUnit(double amountOfmoney, double convertRatio) => amountOfmoney / convertRatio;
 
-string ReadUnit()
+Currency ReadUnit()
 {
-    string text = string.Empty;
+    bool isCurrency = false;
+    Currency currency;
     do
     {
-        text = ExtendedConsole.ReadString("Kérek egy mértékegységet(JPY, USD vagy CHF): ").ToUpper();
-
+        string input = ExtendedConsole.ReadString("Kérek egy mértékegységet(JPY, USD vagy CHF): ");
+        isCurrency = Enum.TryParse<Currency>(input, true, out currency);
     }
-    while (text != "JPY" && text != "USD" && text != "CHF");
-    return text;
+    while (!isCurrency);
+    return currency;
 };

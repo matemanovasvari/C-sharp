@@ -7,21 +7,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_00", "Feladat_00\Fe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOLibrary", "IOLibrary\IOLibrary.csproj", "{908C31F8-6A78-46E0-9949-85CEFF4CC149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLibrary", "CustomLibrary\CustomLibrary.csproj", "{9FECE430-6DEF-4687-A44C-94489B5ED08E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomLibrary", "CustomLibrary\CustomLibrary.csproj", "{9FECE430-6DEF-4687-A44C-94489B5ED08E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_01", "Feladat_01\Feladat_01.csproj", "{6F948643-1D0C-43A6-BFC0-AE50BE67AC45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_01", "Feladat_01\Feladat_01.csproj", "{6F948643-1D0C-43A6-BFC0-AE50BE67AC45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_02", "Feladat_02\Feladat_02.csproj", "{B9F10078-784E-425A-839B-D5D6431C068B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_02", "Feladat_02\Feladat_02.csproj", "{B9F10078-784E-425A-839B-D5D6431C068B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_03", "Feladat_03\Feladat_03.csproj", "{E468DC10-2909-4C2A-BE8F-2AFD8681E2F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_03", "Feladat_03\Feladat_03.csproj", "{E468DC10-2909-4C2A-BE8F-2AFD8681E2F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_04", "Feladat_04\Feladat_04.csproj", "{1C298A1A-09A5-40E1-95BA-F85EF306F827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_04", "Feladat_04\Feladat_04.csproj", "{1C298A1A-09A5-40E1-95BA-F85EF306F827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_06", "Feladat_06\Feladat_06.csproj", "{2365F410-5226-4571-85FD-84F4E9F1A2D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_06", "Feladat_06\Feladat_06.csproj", "{2365F410-5226-4571-85FD-84F4E9F1A2D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_09", "Feladat_09\Feladat_09.csproj", "{BCA7EF2D-D24A-4C22-89C3-EB4A243D8721}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_09", "Feladat_09\Feladat_09.csproj", "{BCA7EF2D-D24A-4C22-89C3-EB4A243D8721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_08", "Feladat_08\Feladat_08.csproj", "{3A32B26E-0C25-479F-B16B-CEB235DA1797}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_08", "Feladat_08\Feladat_08.csproj", "{3A32B26E-0C25-479F-B16B-CEB235DA1797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_11", "Feladat_11\Feladat_11.csproj", "{0BF4FD50-519C-43D0-B9BC-01B5EC656B69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{3A32B26E-0C25-479F-B16B-CEB235DA1797}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A32B26E-0C25-479F-B16B-CEB235DA1797}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A32B26E-0C25-479F-B16B-CEB235DA1797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF4FD50-519C-43D0-B9BC-01B5EC656B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF4FD50-519C-43D0-B9BC-01B5EC656B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF4FD50-519C-43D0-B9BC-01B5EC656B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF4FD50-519C-43D0-B9BC-01B5EC656B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
