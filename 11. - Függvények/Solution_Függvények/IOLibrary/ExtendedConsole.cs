@@ -1,4 +1,6 @@
-﻿namespace IOLibrary;
+﻿using System.Windows.Markup;
+
+namespace IOLibrary;
 
 public static class ExtendedConsole
 {
@@ -73,5 +75,4 @@ public static class ExtendedConsole
 
         return text;
     }
-
 }

@@ -2,7 +2,7 @@
 
 public static class Payment
 {
-    public static double PaymentCalculator(int wage, double hoursInWeek = 40)
+    public static double PaymentCalculator(double hoursInWeek, int wage = 1000)
     {
         return hoursInWeek * wage;
     }
