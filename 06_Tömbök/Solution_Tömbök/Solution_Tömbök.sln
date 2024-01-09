@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom.Library", "Custom.Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_01", "Feladat_01\Feladat_01.csproj", "{3B3C332E-F768-444F-A79F-0CDF6A4A1DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_07", "Feladat_07\Feladat_07.csproj", "{D9B90A5A-9A67-40B1-B47F-2BA442217429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_07", "Feladat_07\Feladat_07.csproj", "{D9B90A5A-9A67-40B1-B47F-2BA442217429}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_07_autók", "Feladat_07_autók\Feladat_07_autók.csproj", "{AC5CBE24-976A-403C-95A0-83540D12403B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat_07_autók", "Feladat_07_autók\Feladat_07_autók.csproj", "{AC5CBE24-976A-403C-95A0-83540D12403B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_07_benzinkút", "Feladat_07_benzinkút\Feladat_07_benzinkút.csproj", "{D8E35AED-2CD1-4890-AB4D-D4656492FF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_07_gyümölcs", "Feladat_07_gyümölcs\Feladat_07_gyümölcs.csproj", "{6D8DA1E4-A177-49FB-88F7-AC68BED94512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{AC5CBE24-976A-403C-95A0-83540D12403B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC5CBE24-976A-403C-95A0-83540D12403B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC5CBE24-976A-403C-95A0-83540D12403B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E35AED-2CD1-4890-AB4D-D4656492FF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E35AED-2CD1-4890-AB4D-D4656492FF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E35AED-2CD1-4890-AB4D-D4656492FF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E35AED-2CD1-4890-AB4D-D4656492FF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8DA1E4-A177-49FB-88F7-AC68BED94512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8DA1E4-A177-49FB-88F7-AC68BED94512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8DA1E4-A177-49FB-88F7-AC68BED94512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8DA1E4-A177-49FB-88F7-AC68BED94512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
