@@ -5,6 +5,8 @@
 
     public double UnitPrice { get; set; }
 
+    public double StockValue => UnitPrice * Amount;
+
     public Fruit()
     {
 
