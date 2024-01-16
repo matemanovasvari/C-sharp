@@ -3,13 +3,13 @@
 const int NUMBER_OF_FRUITS = 3;
 Fruit[] fruits = GetFruits();
 
-int sumOfAmount = fruits.Sum(x => x.Amount);
+double sumOfAmount = fruits.Sum(x => x.Amount);
 
 double sumOfStockValue = fruits.Sum(x => x.StockValue);
 
-Fruit[] mostExpensiveFruit = fruits.Where(x => x.UnitPrice > (fruits.Max(a => a.UnitPrice) - fruits.Min(a => a.UnitPrice))).ToArray();
+Fruit[] mostExpensiveFruit = fruits.Where(x => x.UnitPrice == (fruits.Max(x => x.UnitPrice))).ToArray();
 
-int smallestAmountOfFruit = fruits.Min(x => x.Amount);
+double smallestAmountOfFruit = fruits.Min(x => x.Amount);
 
 Fruit[] fruitsLessThan100Kgs = fruits.Where(x => x.Amount < 100).ToArray();
 
@@ -36,8 +36,8 @@ Fruit[] GetFruits(){
     for (int i = 0; i < NUMBER_OF_FRUITS; i++)
     {
         string name = ExtendedConsole.ReadString("Adja meg a gyümölcs nevét: ");
-        int amount = ExtendedConsole.ReadInteger("Adja meg, hogy hágy kb: ");
-        double unitPrice = ExtendedConsole.ReadInteger("Adja meg, hogy mennyi a gyümölcs egységára: ");
+        double amount = ExtendedConsole.ReadDouble("Adja meg, hogy hágy kg: ");
+        double unitPrice = ExtendedConsole.ReadDouble("Adja meg, hogy mennyi a gyümölcs egységára: ");
 
         fruits[i] = new Fruit(name, amount, unitPrice);
     }
