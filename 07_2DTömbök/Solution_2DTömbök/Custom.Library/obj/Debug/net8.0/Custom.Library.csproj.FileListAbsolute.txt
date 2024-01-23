@@ -1,0 +1,12 @@
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\bin\Debug\net8.0\Custom.Library.deps.json
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\bin\Debug\net8.0\Custom.Library.dll
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\bin\Debug\net8.0\Custom.Library.pdb
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.AssemblyInfoInputs.cache
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.AssemblyInfo.cs
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.csproj.CoreCompileInputs.cache
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.sourcelink.json
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.dll
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\refint\Custom.Library.dll
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.pdb
+J:\C-sharp\06_Tömbök\Solution_Tömbök\Custom.Library\obj\Debug\net8.0\ref\Custom.Library.dll
