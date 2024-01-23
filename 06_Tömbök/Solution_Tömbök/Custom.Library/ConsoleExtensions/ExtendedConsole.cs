@@ -26,12 +26,13 @@ public static class ExtendedConsole
             Console.Write($"{promt}");
             string text = Console.ReadLine();
             isNumber = int.TryParse(text, out number);
+            /*
             if (number > maximum)
             {
-                //Console.ForegroundColor = ConsoleColor.Red;
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"A megadott szám nem lehet nagyobb, mint {maximum}");
 
-                /*
+                
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"A folytatáshoz nyomja meg bármely gombot!");
 
@@ -39,8 +40,9 @@ public static class ExtendedConsole
                 Console.Clear();
 
                 Console.ResetColor();
-                */
+                
             }
+            */
         }
         while (!isNumber || number > maximum);
 
@@ -73,6 +75,21 @@ public static class ExtendedConsole
             isNumber = double.TryParse(text, new CultureInfo("en-EN"), out number);
         }
         while (!isNumber);
+
+        return number;
+    }
+
+    public static double ReadDouble(int minimum, string promt)
+    {
+        bool isNumber = false;
+        double number = 0;
+        do
+        {
+            Console.Write($"{promt}");
+            string text = Console.ReadLine();
+            isNumber = double.TryParse(text, new CultureInfo("en-EN"), out number);
+        }
+        while (!isNumber || number > minimum);
 
         return number;
     }
