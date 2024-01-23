@@ -28,9 +28,10 @@ public static class ExtendedConsole
             isNumber = int.TryParse(text, out number);
             if (number > maximum)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
+                //Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"A megadott szám nem lehet nagyobb, mint {maximum}");
 
+                /*
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"A folytatáshoz nyomja meg bármely gombot!");
 
@@ -38,6 +39,7 @@ public static class ExtendedConsole
                 Console.Clear();
 
                 Console.ResetColor();
+                */
             }
         }
         while (!isNumber || number > maximum);
