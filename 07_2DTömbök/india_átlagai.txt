@@ -1,0 +1,33 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Calling the function to get 6 arrays
+        int[][] resultArrays = GetSixArrays();
+
+        // Displaying the content of each array
+        for (int i = 0; i < resultArrays.Length; i++)
+        {
+            Console.WriteLine($"Array {i + 1}: {string.Join(", ", resultArrays[i])}");
+        }
+    }
+
+    static int[][] GetSixArrays()
+    {
+        // Initializing and populating six arrays with sample data
+        int[] array1 = { 1, 2, 3, 4, 5 };
+        int[] array2 = { 10, 20, 30, 40, 50 };
+        int[] array3 = { 100, 200, 300, 400, 500 };
+        int[] array4 = { 6, 7, 8, 9, 10 };
+        int[] array5 = { 60, 70, 80, 90, 100 };
+        int[] array6 = { 600, 700, 800, 900, 1000 };
+
+        // Creating an array of arrays
+        int[][] resultArrays = { array1, array2, array3, array4, array5, array6 };
+
+        // Returning the array of arrays
+        return resultArrays;
+    }
+}
