@@ -18,13 +18,13 @@ Console.WriteLine("4 – Keresse ki a mátrix (n x n) dimenziójú tömb fő át
 PrintItemsBelowDiagonalToConsole(matrix);
 
 Console.WriteLine("5 – Keresse ki a mátrix (n x n) dimenziójú tömb mellékátló alatti elemekből a legnagyobbat.");
-int[] numbersBelowSecondSiagonal = GetNumbersBelowSecondDiagonal(matrix);
-int maxNumber = numbersBelowSecondSiagonal.Max(x => x);
+int[] numbersBelowSecondDiagonal = GetNumbersBelowSecondDiagonal(matrix);
+int maxNumber = numbersBelowSecondDiagonal.Max(x => x);
 Console.WriteLine(maxNumber);
 
 Console.WriteLine("6 – Keresse ki a mátrix (n x n) dimenziójú tömb mellékátló feletti elemekből a legkisebet.");
-int[] numbersAboveSecondSiagonal = GetNumbersAboveSecondDiagonal(matrix);
-int minNumber = numbersAboveSecondSiagonal.Max(x => x);
+int[] numbersAboveSecondDiagonal = GetNumbersAboveSecondDiagonal(matrix);
+int minNumber = numbersAboveSecondDiagonal.Min(x => x);
 Console.WriteLine(minNumber);
 
 int[,] FillMatrix(int size)
@@ -122,7 +122,7 @@ void PrintItemsBelowDiagonalToConsole(int[,] matrix)
     {
         for (int j = 0; j < size; j++)
         {
-            if (j < i)
+            if (i > j)
             {
                 Console.Write($"[{i},{j}]\t");
             }

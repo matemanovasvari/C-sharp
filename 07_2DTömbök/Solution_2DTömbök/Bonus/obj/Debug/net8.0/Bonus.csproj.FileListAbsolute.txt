@@ -1,0 +1,15 @@
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\bin\Debug\net8.0\Bonus.exe
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\bin\Debug\net8.0\Bonus.deps.json
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\bin\Debug\net8.0\Bonus.runtimeconfig.json
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\bin\Debug\net8.0\Bonus.dll
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\bin\Debug\net8.0\Bonus.pdb
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\Bonus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\Bonus.AssemblyInfoInputs.cache
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\Bonus.AssemblyInfo.cs
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\Bonus.csproj.CoreCompileInputs.cache
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\Bonus.sourcelink.json
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\Bonus.dll
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\refint\Bonus.dll
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\Bonus.pdb
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\Bonus.genruntimeconfig.cache
+D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Bonus\obj\Debug\net8.0\ref\Bonus.dll
