@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Feladat/1.0.0": {
+        "dependencies": {
+          "Custom.Library": "1.0.0"
+        },
+        "runtime": {
+          "Feladat.dll": {}
+        }
+      },
+      "Custom.Library/1.0.0": {
+        "runtime": {
+          "Custom.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Feladat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Custom.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
