@@ -22,3 +22,15 @@ D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj
 D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\refint\Custom.Library.dll
 D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.pdb
 D:\Documents\Iskola\C-SHARP\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\ref\Custom.Library.dll
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\bin\Debug\net8.0\Custom.Library.deps.json
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\bin\Debug\net8.0\Custom.Library.dll
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\bin\Debug\net8.0\Custom.Library.pdb
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.AssemblyInfoInputs.cache
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.AssemblyInfo.cs
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.csproj.CoreCompileInputs.cache
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.sourcelink.json
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.dll
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\refint\Custom.Library.dll
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\Custom.Library.pdb
+J:\C-sharp\07_2DTömbök\Solution_2DTömbök\Custom.Library\obj\Debug\net8.0\ref\Custom.Library.dll

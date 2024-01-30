@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Iskola\\C-SHARP\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\Bonus.csproj": {}
+    "J:\\C-sharp\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\Bonus.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Iskola\\C-SHARP\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\Bonus.csproj": {
+    "J:\\C-sharp\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\Bonus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Iskola\\C-SHARP\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\Bonus.csproj",
+        "projectUniqueName": "J:\\C-sharp\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\Bonus.csproj",
         "projectName": "Bonus",
-        "projectPath": "D:\\Documents\\Iskola\\C-SHARP\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\Bonus.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Iskola\\C-SHARP\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\obj\\",
+        "projectPath": "J:\\C-sharp\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\Bonus.csproj",
+        "packagesPath": "C:\\Users\\b1nagmat2\\.nuget\\packages\\",
+        "outputPath": "J:\\C-sharp\\07_2DTömbök\\Solution_2DTömbök\\Bonus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b1nagmat2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
