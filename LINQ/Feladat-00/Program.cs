@@ -1,4 +1,6 @@
-﻿List<Student> students = new List<Student>
+﻿using System.Linq;
+
+List<Student> students = new List<Student>
 {
     new Student("Hetfo Henrik", 10, 154),
     new Student("Kedd Kinga",13, 250),
@@ -49,4 +51,28 @@ List<string> orderedStudentsByGradeAndPoints = students.OrderByDescending(x => x
                                                        .ToList();
 
 
-//hf:evfolyamonkent elert pontszamok, evfolyam szerint csokkeno sorrendben 
+//hf:evfolyamonkent elert pontszamok, evfolyam szerint csokkeno sorrendben
+
+/*var pointsByEachGrade = students.GroupBy(x => x.Grade)
+                                .Select(x => new {Id = x.Key, SumOfPoints = x.Sum(x => x.Points)})
+                                .OrderByDescending(x => x.SumOfPoints);
+
+foreach (var point in pointsByEachGrade)
+{
+    Console.WriteLine(point);
+}
+//Igy is jo, de a masik jobb
+*/
+
+//mashogy
+List<GradeWithPoints> gradeWithPoints = students.GroupBy(x => x.Grade)
+                                                .Select(x => new GradeWithPoints{Grade = x.Key, Points = x.Sum(x => x.Points)})
+                                                .OrderByDescending(x => x.Grade)
+                                                .ToList();
+
+//milyen pontszamot kaptak az egyes evfolyamok, 1-szer jelenjen meg
+List<int> distinctedPoints = students.Select(x => x.Points).Distinct().ToList();
+
+//vagy
+
+distinctedPoints = students.DistinctBy(x => x.Points).Select(x => x.Points).ToList();
