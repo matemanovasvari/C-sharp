@@ -79,14 +79,20 @@ namespace Feladat___01
             List<TeamAndNames> playersInEachTeam = _players.GroupBy(x => x.Club)
                                               .Select(x => new TeamAndNames { Club = x.Key, PlayerName = x.Select(x => x.Name).ToList() })
                                               .ToList();
-            
-            void PrintPlayerNamesToConsole(List<TeamAndNames> playersInEachTeam)
+
+    
+
+
+            foreach (var i in playersInEachTeam)
             {
-                foreach(List<TeamAndNames> player in playersInEachTeam)
-                {
-                    Console.WriteLine(player);
+                Console.WriteLine($"¤ {i.Club}");
+
+                foreach (var j in i.PlayerName)
+                { 
+                    Console.WriteLine($"\t- {j}");
                 }
-            }
+            };
+            
         }
     }
 }

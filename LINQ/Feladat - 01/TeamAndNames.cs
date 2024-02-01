@@ -19,6 +19,6 @@ public class TeamAndNames
 
     public override string ToString()
     {
-        return $"{Club}\n\t - {PlayerName}";
+        return $"{Club}";
     }
 }
