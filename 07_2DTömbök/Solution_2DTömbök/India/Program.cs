@@ -12,20 +12,13 @@ double[] dailyWeatherAverageInAscendingOrder = DailyWeatherAverage(dataOfWeather
 Array.Sort(dailyWeatherAverageInAscendingOrder);
 WriteArray(dailyWeatherAverageInAscendingOrder);
 
-
-double[] sumsOfDailyWeather = DailyWeatherSum(dataOfWeathers);
-
-double maxRain = sumsOfDailyWeather.Max();
-double[] dayWithMaxRain = sumsOfDailyWeather.Where(x => x == maxRain).ToArray();
+string dayWithLargestRain = GetDayWithLargestAmountOfRain(dataOfWeathers);
 Console.WriteLine();
-WriteDay(dayWithMaxRain);
+Console.WriteLine(dayWithLargestRain);
 
-double minRain = sumsOfDailyWeather.Min();
-double[] dayWithMinRain = sumsOfDailyWeather.Where(x => x == minRain).ToArray();
+string dayWithSmallestRain = GetDayWithSmallestAmountOfRain(dataOfWeathers);
 Console.WriteLine();
-WriteDay(dayWithMinRain);
-
-
+Console.WriteLine(dayWithSmallestRain);
 
 double[,] GetMatrix()
 {
@@ -83,30 +76,6 @@ void WriteArray(double[] array)
     }
 }
 
-void WriteDay(double[] array)
-{
-    for (int i = 0; i < array.Length; i++) 
-    { 
-        Console.WriteLine($"{i + 1}.nap");
-    }
-}
-double[] DailyWeatherSum(double[,] matrix)
-{
-    double[] dailyWeatherSums = new double[7];
-
-    for (int i = 0; i < NUMBER_OF_ROWS; i++)
-    {
-        for (int j = 0; j < NUMBER_OF_COLUMNS; j++)
-        {
-            dailyWeatherSums[i] = matrix[i, 0] + matrix[i, 1] + matrix[i, 2];
-        }
-
-
-    }
-
-    return dailyWeatherSums;
-}
-
 double[] GetMorningRain(double[,] matrix)
 {
     double[] morningRain = new double[7];
@@ -122,4 +91,36 @@ double[] GetMorningRain(double[,] matrix)
     }
 
     return morningRain;
+}
+
+string GetDayWithLargestAmountOfRain(double[,] data)
+{
+    string day = "";
+    double ifstatement = 0;
+
+    for (int i = 0; i < NUMBER_OF_ROWS; i++)
+    {
+        if (data[i, 0] + data[i, 1] + data[i, 2] > ifstatement)
+        {
+            ifstatement = data[i, 0] + data[i, 1] + data[i, 2];
+            day = $"{i + 1}. nap";
+        }
+    }
+    return day;
+}
+
+string GetDayWithSmallestAmountOfRain(double[,] data)
+{
+    string day = "";
+    double ifstatement = data[0, 0] + data[0, 1] + data[0, 2];
+
+    for (int i = 0; i < NUMBER_OF_ROWS; i++)
+    {
+        if (data[i, 0] + data[i, 1] + data[i, 2] < ifstatement)
+        {
+            ifstatement = data[i, 0] + data[i, 1] + data[i, 2];
+            day = $"{i + 1}. nap";
+        }
+    }
+    return day;
 }
