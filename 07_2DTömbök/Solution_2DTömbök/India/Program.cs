@@ -6,19 +6,30 @@ Random rnd = new Random();
 
 double[,] dataOfWeathers = GetMatrix();
 
+Console.WriteLine("Írjuk ki a képernyőre a mért adatokat.  Minden egyes számra 4 karakter mezőt foglaljunk le!");
 PrintMatrixToConsole(dataOfWeathers);
 
+Console.WriteLine("A leesett napi átlag csapadékot növekvő sorrendje");
 double[] dailyWeatherAverageInAscendingOrder = DailyWeatherAverage(dataOfWeathers);
 Array.Sort(dailyWeatherAverageInAscendingOrder);
 WriteArray(dailyWeatherAverageInAscendingOrder);
 
+Console.WriteLine("Melyik nap esett a legtöbb csapadék");
 string dayWithLargestRain = GetDayWithLargestAmountOfRain(dataOfWeathers);
-Console.WriteLine();
 Console.WriteLine(dayWithLargestRain);
 
+Console.WriteLine("Melyik nap esett a legkevesebb csapadék");
 string dayWithSmallestRain = GetDayWithSmallestAmountOfRain(dataOfWeathers);
-Console.WriteLine();
 Console.WriteLine(dayWithSmallestRain);
+
+Console.WriteLine("Melyik nap reggelére esett a legtöbb csapadék");
+string dayWithLargestMorningRain = GetDayWithLargestAmountOfMorningRain(dataOfWeathers);
+Console.WriteLine(dayWithLargestMorningRain);
+
+Console.WriteLine("Melyik nap esett a legtöbb csapadék reggel 6 és este 22 óraközt");
+string dayWithLargestRainFrom6To22 = GetDayWithLargestAmountOfRainFrom6To22(dataOfWeathers);
+Console.WriteLine(dayWithLargestRainFrom6To22);
+
 
 double[,] GetMatrix()
 {
@@ -76,34 +87,23 @@ void WriteArray(double[] array)
     }
 }
 
-double[] GetMorningRain(double[,] matrix)
-{
-    double[] morningRain = new double[7];
-
-    for (int i = 0; i < NUMBER_OF_ROWS; i++)
-    {
-        for (int j = 0; j < NUMBER_OF_COLUMNS; j++)
-        {
-            morningRain[i] = matrix[i, 0];
-        }
-
-
-    }
-
-    return morningRain;
-}
-
 string GetDayWithLargestAmountOfRain(double[,] data)
 {
-    string day = "";
-    double ifstatement = 0;
+    string day = string.Empty;
+    double[] daysWithRain = new double[7];
 
     for (int i = 0; i < NUMBER_OF_ROWS; i++)
     {
-        if (data[i, 0] + data[i, 1] + data[i, 2] > ifstatement)
+
+        for (int j = 0; j < NUMBER_OF_COLUMNS; j++)
         {
-            ifstatement = data[i, 0] + data[i, 1] + data[i, 2];
-            day = $"{i + 1}. nap";
+            daysWithRain[i] = data[i, 0] + data[i, 1] + data[i, 2];
+            double biggestRain = daysWithRain.Max();
+
+            if (daysWithRain[i] == biggestRain)
+            {
+                day = $"{i + 1}. nap";
+            }
         }
     }
     return day;
@@ -111,15 +111,64 @@ string GetDayWithLargestAmountOfRain(double[,] data)
 
 string GetDayWithSmallestAmountOfRain(double[,] data)
 {
-    string day = "";
-    double ifstatement = data[0, 0] + data[0, 1] + data[0, 2];
+    string day = string.Empty;
+    double[] daysWithRain = new double[7];
 
     for (int i = 0; i < NUMBER_OF_ROWS; i++)
     {
-        if (data[i, 0] + data[i, 1] + data[i, 2] < ifstatement)
+        for (int j = 0; j < NUMBER_OF_COLUMNS; j++)
         {
-            ifstatement = data[i, 0] + data[i, 1] + data[i, 2];
-            day = $"{i + 1}. nap";
+            daysWithRain[i] = data[i, 0] + data[i, 1] + data[i, 2];
+            double biggestRain = daysWithRain.Min();
+
+            if (daysWithRain[i] == biggestRain)
+            {
+                day = $"{i + 1}. nap";
+            }
+        }
+    }
+    return day;
+}
+
+string GetDayWithLargestAmountOfMorningRain(double[,] data)
+{
+    string day = string.Empty;
+    double[] daysWithRain = new double[7];
+
+    for (int i = 0; i < NUMBER_OF_ROWS; i++)
+    {
+
+        for (int j = 0; j < NUMBER_OF_COLUMNS; j++)
+        {
+            daysWithRain[i] = data[i, 0] + data[i, 0] + data[i, 0];
+            double biggestRain = daysWithRain.Max();
+
+            if (daysWithRain[i] == biggestRain)
+            {
+                day = $"{i + 1}. nap";
+            }
+        }
+    }
+    return day;
+}
+
+string GetDayWithLargestAmountOfRainFrom6To22(double[,] data)
+{
+    string day = string.Empty;
+    double[] daysWithRain = new double[7];
+
+    for (int i = 0; i < NUMBER_OF_ROWS; i++)
+    {
+
+        for (int j = 0; j < NUMBER_OF_COLUMNS; j++)
+        {
+            daysWithRain[i] = data[i, 1] + data[i, 1] + data[i, 1];
+            double biggestRain = daysWithRain.Max();
+
+            if (daysWithRain[i] == biggestRain)
+            {
+                day = $"{i + 1}. nap";
+            }
         }
     }
     return day;
