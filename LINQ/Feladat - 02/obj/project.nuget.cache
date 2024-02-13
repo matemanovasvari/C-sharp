@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ad5t/mh7o7LrdhdW4UgVGcX+JC1VsM7/ACrRpX+kyWVAfI2Kvwis0kAB3SeukqXMuV3WCRURCbKz0YoN49pA2A==",
+  "success": true,
+  "projectFilePath": "J:\\C-sharp\\LINQ\\Feladat - 02\\Feladat - 02.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\b1nagmat2\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
