@@ -101,23 +101,21 @@ namespace Feladat___04
         bool isThereMovieDirectedByCruise = _movies.Any(x => x.Director == "Tom Cruise");
 
         // 14 - A 'Little Miss Sunshine' filme mekkora össz bevételt hozott?
-        long? littleMissSunshineIncome = _movies.Where(x => x.Title == "Little Miss Sunshine")
-                                       .Sum(x => x.USDVDSales + x.WorldwideGross + x.USGross);
+        long littleMissSunshineIncome = _movies.FirstOrDefault(x => x.Title == "Little Miss Sunshine")?.WorldwideGross ?? 0;
 
         // 15 - Hány olyan film van amely az IMDB-n 6 feletti osztályzatot ért el és a 'Rotten Tomatoes'-n pedig legalább 25-t?
         int numberOfMoviesWithGoodRating = _movies.Where(x => x.IMDBRating > 6 && x.RottenTomatoesRating >= 25).Count();
 
         // 16 - 'Michael Bay' filmjei átlagban mekkora bevételt hoztak?
         double michaelBayAverageIncome = _movies.Where(x => x.Director == "Michael Bay")
-                                            .Average(x => x.USDVDSales.Value + x.USGross.Value + x.WorldwideGross.Value);
+                                            .Average(x =>  x.WorldwideGross ?? 0);
 
         // 17 - Melyek azok a 'Michael Bay' a 'Walt Disney Pictures' által forgalmazott fimek melyek legalább 150min hosszúak.
         List<Movie> bayAndWaltMovies = _movies.Where(x => x.Director == "Michael Bay" && x.Distributor == "Walt Disney Pictures" &&
                                                          x.RunningTime >= 150).ToList();
 
         // 18 - Listázza ki a forgalmazókat úgy, hogy mindegyik csak egyszer jelenjen meg!
-        List<string> distributors = _movies.Where(x => x.Distributor != null)
-                                   .Select(x => x.Distributor)
+        List<string> distributors = _movies.Select(x => x.Distributor)
                                    .Distinct()
                                    .ToList();
 
@@ -134,13 +132,12 @@ namespace Feladat___04
         List<Movie> moviesFromDecember = _movies.Where(x => x.ReleaseDate.Month == 12).ToList();
 
         // 23 - Egyes besorolásokban (Rating) hány film található?
-        List<RatingAndCount> numberOfMoviesInEachRating = _movies.Where(x => x.MajorGenre != null)
-                                      .GroupBy(x => x.Rating)
-                                      .Select(x => new RatingAndCount
-                                      {
-                                          RatingGroup = x.Key,
-                                          NumberOfMovies = x.Count()
-                                      }).ToList();
+        List<RatingAndCount> numberOfMoviesInEachRating = _movies.GroupBy(x => x.Rating)
+                                                                 .Select(x => new RatingAndCount
+                                                                 {
+                                                                    RatingGroup = x.Key,
+                                                                    NumberOfMovies = x.Count()
+                                                                 }).ToList();
 
         // 24 - Keresse ki azokat a filmeket melyeket 'Ron Howard' rendezett a 2000 években, 'PG-13' bsorolású,
         // lagalább 80 perc hosszú és az IMDB legalább 6.5 átlagot ért el.
@@ -157,24 +154,24 @@ namespace Feladat___04
                                                         .ToList();
 
         // 26 - Az 'Universal' forgalmazó átlagban mennyit kültött film forgatására?
-        double? averageUniversalCost = _movies.Where(x => x.Distributor == "Universal")
-                                                .Average(x => x.ProductionBudget);
+        double averageUniversalCost = _movies.Where(x => x.Distributor?.ToLower() == "universal")
+                                                .Average(x => x.ProductionBudget ?? 0);
 
         // 27 - Az 'IMDB Votes' alapján melyek azok a filmek, melyeket többen értékeltek min 30 000-n?
         List<Movie> moviesWithMoreThan30000Votes = _movies.Where(x => x.IMDBVotes >= 30000).ToList();
 
         // 28 - Az 'American Pie' című filmnek hány része van?
-        int numberOfEpisodesOfAmericanPie = _movies.Count(x => x.Title.Contains("American Pie"));
+        int numberOfEpisodesOfAmericanPie = _movies.Count(x => x.Title?.ToLower().StartsWith("american pie") ?? false);
 
         // 29 - Van-e olyan film melynek a címében szerepel a 'fantasy' szó és a zsánere 'Adventure'?
-        bool titleWithFantasyGenreAdventure = _movies.Any(x => x.Title.Contains("fantasy") && x.MajorGenre == "Adventure");
+        bool titleWithFantasyGenreAdventure = _movies.Any(x => x.Title?.ToLower().Contains("fantasy") ?? false && x.MajorGenre?.ToLower() == "adventure");
 
         // 30 - Átlagban hányan szavaztak az IMDB-n?
-        double averageOfIMDBVotes = _movies.Average(x => x.IMDBVotes.Value);
+        double averageOfIMDBVotes = _movies.Average(x => x.IMDBVotes ?? 0);
 
         // 31 - Kik rendeztek a 'Warner Bros.' forgalmazónál dráma filmeket 1970 és 1975 közt melyre az 'IMDB Votes' alapján
         // többen szavaztak az átlagnál?
-        List<string> warnerDirectors = _movies.Where(x => x.Distributor == "Warner Bros." && x.MajorGenre == "Drama" &&
+        List<string> warnerDirectors = _movies.Where(x => x.Distributor?.ToLower() == "warner bros." && x.MajorGenre?.ToLower() == "drama" &&
                                                                     x.ReleaseDate.Year >= 1970 && x.ReleaseDate.Year <= 1975 &&
                                                                     x.IMDBVotes > averageOfIMDBVotes)
                                                          .Select(x => x.Director).ToList();
@@ -183,11 +180,19 @@ namespace Feladat___04
         bool isThereMovieThatReleasedOnChristmas = _movies.Any(x => x.ReleaseDate.Month == 12 && x.ReleaseDate.Day == 25);
 
         // 33 - 'Spider-Man' című filmek USA-ban mekkora bevételt hoztak?
-        int? spiderManUSAIncomes = _movies.Where(m => m.Title.Contains("Spider Man"))
-        .Sum(x => x.USDVDSales + x.USGross);
+        int spiderManUSAIncomes = _movies.Where(m => m.Title?.ToLower().Contains("spider man") ?? false)
+                                          .Sum(x => x.USGross ?? 0);
 
         // 34 - Keresse ki  szuperhősös (Super Hero) filmek címeit.
-        List<string> superHeroMovies = _movies.Where(m => m.CreativeType == "Super Hero")
+        List<string> superHeroMovies = _movies.Where(m => m.CreativeType?.ToLower() == "super hero")
                                             .Select(m => m.Title).ToList();
+
+        // 35 - Kerje le az elso 10 filmet
+        List<Movie> first10Movies = _movies.Take(10).ToList();
+
+        // 36 - Kerje le a 30 és a 40 kozti filmeket, ahol a 30 és 40 azok indexek
+        List<Movie> page3 = _movies.Skip(30)
+                                   .Take(10)
+                                   .ToList();
     }
 }
