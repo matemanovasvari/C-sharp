@@ -16,6 +16,6 @@
 
     public override string ToString()
     {
-        return $"{this.Name} -> {this.Average}";
+        return $"{this.Name} : {this.Average}";
     }
 }
