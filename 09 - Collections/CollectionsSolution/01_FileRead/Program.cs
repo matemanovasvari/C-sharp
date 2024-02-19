@@ -1,4 +1,6 @@
-﻿List<Student> students = await FileService.ReadFromFileV2Async("adatok.txt");
+﻿using System;
+
+List<Student> students = await FileService.ReadFromFileV2Async("adatok.txt");
 
 //1 - Írjuk ki minden diák adatát a képernyőre!
 students.WriteCollectionToConsole<Student>();
@@ -33,5 +35,8 @@ Console.WriteLine();
     - jeles, ha: 4.00 - 4.99
     - kitünő, ha: 5.00
 */
+
+Dictionary<string, int> gradesPerType = GradesAndGradeNames.GetNumberOfGradesPerType(students);
+gradesPerType.WriteCollectionToConsole();
 
 Console.ReadKey();
