@@ -37,6 +37,29 @@ Console.WriteLine();
 */
 
 Dictionary<string, int> gradesPerType = GradesAndGradeNames.GetNumberOfGradesPerType(students);
-gradesPerType.WriteCollectionToConsole();
+//gradesPerType.WriteCollectionToConsole();
+
+//máshogy
+Dictionary<Grades, int> gradesCountV1 = new Dictionary<Grades, int>()
+{
+    [Grades.Elegtelen] = students.Count(x => x.Grade == Grades.Elegtelen),
+    [Grades.Elegseges] = students.Count(x => x.Grade == Grades.Elegseges),
+    [Grades.Jo] = students.Count(x => x.Grade == Grades.Jo),
+    [Grades.Jeles] = students.Count(x => x.Grade == Grades.Jeles),
+    [Grades.Kituno] = students.Count(x => x.Grade == Grades.Kituno)
+};
+
+/*-------------------------------------------------------------------------------------------*/
+Dictionary<Grades, int> gradesCountV2 = new Dictionary<Grades, int>();
+
+foreach(Grades grade in Enum.GetValues<Grades>())
+{
+    gradesCountV2[grade] = students.Count(x => x.Grade == grade);
+}
+/*-------------------------------------------------------------------------------------------*/
+foreach(KeyValuePair<Grades, int> grade in gradesCountV2)
+{
+    Console.WriteLine($"{grade.Key} : {grade.Value} db");
+}
 
 Console.ReadKey();

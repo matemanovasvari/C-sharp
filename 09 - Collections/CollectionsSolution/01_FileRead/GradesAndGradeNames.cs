@@ -28,7 +28,7 @@
                 case < 5:
                     gradesPerType["jeles"]++;
                     break;
-                case >= 5:
+                case 5:
                     gradesPerType["kitűnő"]++;
                     break;
             }
