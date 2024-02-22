@@ -59,8 +59,13 @@
 
         foreach (TopicPerTitle book in books)
         {
-            data.Add($"{book.Topic}\n\t- {book.Title}");
- 
+            data.Add($"{book.Topic}\n");
+            foreach (string x in book.Titles)
+            {
+                data.Add($"\t- {x}");
+            }
+
+
         }
         
         await File.WriteAllLinesAsync(path, data, Encoding.UTF8);
