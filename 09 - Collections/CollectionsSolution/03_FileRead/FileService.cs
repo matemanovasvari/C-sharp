@@ -38,7 +38,7 @@
 
         foreach (Player player in players)
         {
-            data.Add($"{player.Name}\t{player.Height}\t{player.Position}\t{player.Nationality}\t{player.Team}\t{player.Country}");
+            data.Add($"{player}");
 
             await File.WriteAllLinesAsync(path, data, Encoding.UTF8);
         }
@@ -52,7 +52,7 @@
 
         foreach (TeamAndNames player in players)
         {
-            data.Add($"{player.Team}: {string.Join(", ", player.Names)}\n");
+            data.Add($"{player}");
         }
 
         await File.WriteAllLinesAsync(path, data, Encoding.UTF8);
@@ -66,7 +66,7 @@
 
         foreach (NationalityAndAmount player in players)
         {
-            data.Add($"{player.Nationality}: {player.Amount}\n");
+            data.Add($"{player}");
         }
 
         await File.WriteAllLinesAsync(path, data, Encoding.UTF8);
@@ -84,6 +84,20 @@
         }
 
         await File.WriteAllLinesAsync(path, data, Encoding.UTF8);
+    }
+
+    public static async Task WriteToFileV2Async(string fileName, ICollection<PlayersBelowAverage> players)
+    {
+        Directory.CreateDirectory("output");
+        string path = Path.Combine("output", $"{fileName}.txt");
+        List<string> data = new List<string>();
+
+        foreach (PlayersBelowAverage player in players)
+        {
+            data.Add($"{player}");
+
+            await File.WriteAllLinesAsync(path, data, Encoding.UTF8);
+        }
     }
     #endregion
 }

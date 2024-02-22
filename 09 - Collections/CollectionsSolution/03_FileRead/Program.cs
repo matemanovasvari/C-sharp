@@ -53,3 +53,12 @@ List<PostAndSumWeight> postAndSumWeights = players.GroupBy(x => x.Position)
 
 //8 - Egy szöveges állományba, „alacsonyak.txt” keresse ki a játékosok átlagmagasságától alacsonyabb játékosokat.  
 //Az állomány tartalmazza a játékosok nevét, magasságát és hogy mennyivel alacsonyabbak az átlagnál, 2 tizedes pontossággal.
+List<PlayersBelowAverage> playersBelowAverage = players.Where(x => x.Height < averageHeight)
+                                                       .Select(x => new PlayersBelowAverage
+                                                       {
+                                                           Name = x.Name,
+                                                           Height = x.Height,
+                                                           AverageHeight = averageHeight
+                                                       }).ToList();
+
+await FileService.WriteToFileV2Async("alacsonyak", playersBelowAverage);
