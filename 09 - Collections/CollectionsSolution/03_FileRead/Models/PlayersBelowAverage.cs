@@ -10,6 +10,6 @@
 
     public override string ToString()
     {
-        return $"Játékos neve: {Name}, magassága: {Height} és {AverageHeight:F2}-vel alacsonyabb az átlagnál";
+        return $"Játékos neve: {Name}, magassága: {Height} és {Difference:F2}-vel alacsonyabb az átlagnál";
     }
 }

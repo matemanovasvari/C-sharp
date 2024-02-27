@@ -1,36 +1,38 @@
 ﻿public static class FileService
 {
     #region File Read
-    public static async Task<List<Player>> ReadFromFileV2Async(string fileName)
+    public static async Task<List<LottoPlayer>> ReadFromFileV2Async(string fileName)
     {
-        List<Player> players = new List<Player>();
-        Player player = null;
+        List<LottoPlayer> lottoPlayers = new List<LottoPlayer>();
+        LottoPlayer lottoPlayer = null;
         string[] data = null;
 
         string path = Path.Combine("source", $"{fileName}.txt");
 
         string[] lines = await File.ReadAllLinesAsync(path, Encoding.UTF8);
 
-        foreach (string line in lines) // elso sor atugrasa
+        foreach (string line in lines)
         {
             data = line.Split("\t");
-            player = new Player();
-            player.Name = data[0];
-            player.Height = int.Parse(data[1]);
-            player.Position = data[2];
-            player.Nationality = data[3];
-            player.Team = data[4];
-            player.Country = data[5];
 
-            players.Add(player);
+            lottoPlayer = new LottoPlayer();
+            lottoPlayer.Name = data[0];
+            string[] guesses = data[1].Split(",");
+
+            foreach (string item in guesses)
+            {
+                lottoPlayer.Guess.Add(int.Parse(item));
+            }
+
+            lottoPlayers.Add(lottoPlayer);
         }
 
-        return players;
+        return lottoPlayers;
     }
     #endregion
 
     #region File Write
-    public static async Task WriteToFileAsync<T>(string fileName, ICollection<T> collection) where T : class
+    public static async Task WriteToFileAsync<T>(string fileName, ICollection<T> collection)
     {
         Directory.CreateDirectory("output");
         string path = Path.Combine("output", $"{fileName}.txt");

@@ -7,7 +7,7 @@ players.WriteCollectionToConsole();
 
 //2 - Keressük ki az ütő játékosokat az utok.txt állömányba
 List<Player> hitters = players.Where(x => x.Position == "ütő").ToList();
-await FileService.WriteToFileV2Async("utok", hitters);
+await FileService.WriteToFileAsync("utok", hitters);
 
 //3 - A csapattagok.txt állományba mentsük a csapatokat és a hozzájuk tartozó játékosokat a következő formában:
 //Telekom Baku: Yelizaveta Mammadova, Yekaterina Gamova,
@@ -19,11 +19,11 @@ List<TeamAndNames> teamAndNames = players.GroupBy(x => x.Team)
 
                                         }).ToList();
 
-await FileService.WriteToFileV2Async("csapattagok", teamAndNames);
+await FileService.WriteToFileAsync("csapattagok", teamAndNames);
 
 //4 - Rendezzük a játékosokat magasság szerint növekvő sorrendbe és a magaslatok.txt állományba mentsük el.
 List<Player> playersOrderedByHeight = players.OrderBy(x => x.Height).ToList();
-await FileService.WriteToFileV2Async("magaslatok", playersOrderedByHeight);
+await FileService.WriteToFileAsync("magaslatok", playersOrderedByHeight);
 
 //5 - Mutassuk be a nemzetisegek.txt állományba, hogy mely nemzetiségek képviseltetik magukat a röplabdavilágban mint játékosok és milyen számban.
 List<NationalityAndAmount> nationalityAndAmounts = players.GroupBy(x => x.Nationality)
@@ -32,7 +32,7 @@ List<NationalityAndAmount> nationalityAndAmounts = players.GroupBy(x => x.Nation
                                                             Nationality = x.Key,
                                                             Amount = x.Count()
                                                         }).ToList();
-await FileService.WriteToFileV2Async("nemzetisegek", nationalityAndAmounts);
+await FileService.WriteToFileAsync("nemzetisegek", nationalityAndAmounts);
 
 //6 - atlagnalmagasabbak.txt állományba keressük azon játékosok nevét és magasságát akik magasabbak mint
 //az „adatbázisban” szereplő játékosok átlagos magasságánál.
@@ -40,7 +40,7 @@ double averageHeight = players.Average(x => x.Height);
 
 List<Player> playersAboveAverageHeight = players.Where(x => x.Height > averageHeight).ToList();
 
-await FileService.WriteToFileV3Async("atlagnalmagasabb", playersAboveAverageHeight);
+await FileService.WriteToFileAsync("atlagnalmagasabb", playersAboveAverageHeight);
 
 //7 - Állítsa növekvő sorrendbe a posztok szerint a játékosok ösz magasságát.
 List<PostAndSumWeight> postAndSumWeights = players.GroupBy(x => x.Position)
@@ -61,4 +61,4 @@ List<PlayersBelowAverage> playersBelowAverage = players.Where(x => x.Height < av
                                                            AverageHeight = averageHeight
                                                        }).ToList();
 
-await FileService.WriteToFileV2Async("alacsonyak", playersBelowAverage);
+await FileService.WriteToFileAsync("alacsonyak", playersBelowAverage);
