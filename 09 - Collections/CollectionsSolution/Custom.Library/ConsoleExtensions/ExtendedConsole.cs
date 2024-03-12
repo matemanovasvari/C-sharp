@@ -58,6 +58,11 @@ public static class ExtendedConsole
             Console.Write($"{promt}");
             string text = Console.ReadLine();
             isNumber = int.TryParse(text, out number);
+
+            if(!isNumber || number < minimum || number > maximum)
+            {
+                Console.WriteLine("Hibás adat, kérek egy 1990 és 1999 közötti évszámot");
+            }
         }
         while (!isNumber || number < minimum || number > maximum);
 

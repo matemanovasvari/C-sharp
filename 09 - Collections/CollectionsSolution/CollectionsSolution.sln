@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_FileRead", "02_FileRead\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_FileRead", "03_FileRead\03_FileRead.csproj", "{B6AFA2A7-C64A-45DC-897C-E086890E39D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_FileRead", "04_FileRead\04_FileRead.csproj", "{1E20AE3E-398D-469A-9F6E-7CE25FEFBBDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_FileRead", "04_FileRead\04_FileRead.csproj", "{1E20AE3E-398D-469A-9F6E-7CE25FEFBBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "balkezesek", "balkezesek\balkezesek.csproj", "{C3174C45-6F1B-456B-857A-FD2D9E7A1993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hianyzasok", "hianyzasok\hianyzasok.csproj", "{4883CDE7-D75F-4BC7-80B5-BDFC79BFC48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tanciskola", "tanciskola\tanciskola.csproj", "{4ECF6E0A-AF8A-49E4-8B50-6EA1D73FAFFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{1E20AE3E-398D-469A-9F6E-7CE25FEFBBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E20AE3E-398D-469A-9F6E-7CE25FEFBBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E20AE3E-398D-469A-9F6E-7CE25FEFBBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3174C45-6F1B-456B-857A-FD2D9E7A1993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3174C45-6F1B-456B-857A-FD2D9E7A1993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3174C45-6F1B-456B-857A-FD2D9E7A1993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3174C45-6F1B-456B-857A-FD2D9E7A1993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4883CDE7-D75F-4BC7-80B5-BDFC79BFC48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4883CDE7-D75F-4BC7-80B5-BDFC79BFC48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4883CDE7-D75F-4BC7-80B5-BDFC79BFC48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4883CDE7-D75F-4BC7-80B5-BDFC79BFC48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECF6E0A-AF8A-49E4-8B50-6EA1D73FAFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECF6E0A-AF8A-49E4-8B50-6EA1D73FAFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECF6E0A-AF8A-49E4-8B50-6EA1D73FAFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECF6E0A-AF8A-49E4-8B50-6EA1D73FAFFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
