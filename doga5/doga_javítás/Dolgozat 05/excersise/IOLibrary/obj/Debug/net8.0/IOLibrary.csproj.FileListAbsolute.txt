@@ -1,0 +1,11 @@
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\bin\Debug\net8.0\IOLibrary.deps.json
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\bin\Debug\net8.0\IOLibrary.dll
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\bin\Debug\net8.0\IOLibrary.pdb
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\obj\Debug\net8.0\IOLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\obj\Debug\net8.0\IOLibrary.AssemblyInfoInputs.cache
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\obj\Debug\net8.0\IOLibrary.AssemblyInfo.cs
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\obj\Debug\net8.0\IOLibrary.csproj.CoreCompileInputs.cache
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\obj\Debug\net8.0\IOLibrary.dll
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\obj\Debug\net8.0\refint\IOLibrary.dll
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\obj\Debug\net8.0\IOLibrary.pdb
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\IOLibrary\obj\Debug\net8.0\ref\IOLibrary.dll

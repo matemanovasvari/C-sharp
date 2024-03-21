@@ -1,0 +1,11 @@
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\bin\Debug\net8.0\CustomLibrary.deps.json
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\bin\Debug\net8.0\CustomLibrary.dll
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\bin\Debug\net8.0\CustomLibrary.pdb
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\obj\Debug\net8.0\CustomLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfoInputs.cache
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfo.cs
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\obj\Debug\net8.0\CustomLibrary.csproj.CoreCompileInputs.cache
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\obj\Debug\net8.0\CustomLibrary.dll
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\obj\Debug\net8.0\refint\CustomLibrary.dll
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\obj\Debug\net8.0\CustomLibrary.pdb
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\CustomLibrary\obj\Debug\net8.0\ref\CustomLibrary.dll

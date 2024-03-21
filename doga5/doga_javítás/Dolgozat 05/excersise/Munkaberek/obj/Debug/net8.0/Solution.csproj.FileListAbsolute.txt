@@ -1,0 +1,9 @@
+J:\C-sharp\doga5\doga_javítás\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\doga5\doga_javítás\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.AssemblyInfoInputs.cache
+J:\C-sharp\doga5\doga_javítás\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.AssemblyInfo.cs
+J:\C-sharp\doga5\doga_javítás\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.csproj.CoreCompileInputs.cache
+J:\C-sharp\doga5\doga_javítás\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.sourcelink.json
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.AssemblyInfoInputs.cache
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.AssemblyInfo.cs
+C:\Users\b1nagmat2\Desktop\Dolgozat 05\excersise\Munkaberek\obj\Debug\net8.0\Solution.csproj.CoreCompileInputs.cache

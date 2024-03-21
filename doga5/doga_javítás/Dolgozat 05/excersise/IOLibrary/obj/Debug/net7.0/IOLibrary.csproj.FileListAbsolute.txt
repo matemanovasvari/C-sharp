@@ -1,0 +1,11 @@
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\bin\Debug\net7.0\IOLibrary.deps.json
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\bin\Debug\net7.0\IOLibrary.dll
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\bin\Debug\net7.0\IOLibrary.pdb
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\obj\Debug\net7.0\IOLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\obj\Debug\net7.0\IOLibrary.AssemblyInfoInputs.cache
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\obj\Debug\net7.0\IOLibrary.AssemblyInfo.cs
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\obj\Debug\net7.0\IOLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\obj\Debug\net7.0\IOLibrary.dll
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\obj\Debug\net7.0\refint\IOLibrary.dll
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\obj\Debug\net7.0\IOLibrary.pdb
+C:\Users\vastag.atila\Desktop\11 - Fuggvenzyek\IOLibrary\obj\Debug\net7.0\ref\IOLibrary.dll
