@@ -19,5 +19,20 @@ public static class AppState
         selectedBeer.Price = string.IsNullOrEmpty(beer.Price) ? selectedBeer.Price : beer.Price;
     }
 
+    public static Beer Create(Beer beer)
+    {
+        beer = new Beer();
+
+        selectedBeer.Id = beer.Id;
+
+        selectedBeer.Name = beer.Name;
+
+        selectedBeer.Price = beer.Price;
+
+        selectedBeer.Image = beer.Image;
+
+        return beer;
+    }
+
     public static int GetId() => selectedBeer.Id;
 }

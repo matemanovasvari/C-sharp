@@ -6,48 +6,7 @@ public static class Menu
     {
         Console.Clear();
 
-        int id = ExtendedConsole.ReadInteger("Adja meg a sör azonosítóját!: ");
-
-        Beer beer = await BeerService.GetByIdAsync(id);
-
-        if(beer is null)
-        {
-            Console.WriteLine("Ezzel az azonosítóval nincs sör");
-            await Task.Delay(3000);
-
-            await Main();
-        }
-        else
-        {
-            AppState.SetBeer(beer);
-
-            await UpdateOrDelete();
-        }
-        
-    }
-
-    public static async Task UpdateOrDelete()
-    {
-        Console.Clear();
-
-        Beer beer = AppState.GetBeer();
-
-        beer.WriteToConsole();
-
-        Console.WriteLine();
-        Console.WriteLine("1 - Torles");
-        Console.WriteLine("2 - Szerkesztes");
-        int option = ExtendedConsole.ReadInteger("Válasszon műveletet: ", 1, 2);
-
-        switch (option)
-        {
-            case 1:
-                await DeleteAsync();
-                break;
-            case 2:
-                await UpdateAsync();
-                break;
-        }
+        await CreateOrModify();
     }
 
     private static async Task DeleteAsync()
@@ -88,6 +47,20 @@ public static class Menu
         await Main();
     }
 
+    private static async Task CreateAsync()
+    {
+        Console.Clear();
+        
+        Beer beer = GetCreatedBeerData();
+
+        BeerService.CreateById(beer);
+
+        Console.WriteLine($"Sikerült a létrehozás");
+        await Task.Delay(3000);
+
+        await Main();
+    }
+
     private static Beer GetUpdatedBeerData()
     {
         Beer beer = new Beer();
@@ -104,5 +77,72 @@ public static class Menu
         AppState.Update(beer);
 
         return AppState.GetBeer();
+    }
+
+    public static Beer GetCreatedBeerData()
+    {
+        Beer beer = new Beer();
+
+        beer.Id = ExtendedConsole.ReadInteger("Id: ");
+
+        double price = ExtendedConsole.ReadDouble("Price: ");
+        beer.Price = $"${Math.Abs(price)}";
+
+        beer.Name = ExtendedConsole.ReadString("Name: ");
+
+        beer.Image = ExtendedConsole.ReadString("Image: ");
+
+        beer.Rating.Average = ExtendedConsole.ReadDouble("Average: ");
+
+        beer.Rating.Reviews = ExtendedConsole.ReadInteger("Reviews: ");
+
+        AppState.Create(beer);
+
+        return beer;
+    }
+
+    public static async Task CreateOrModify()
+    {
+        Console.Clear();
+
+        Console.WriteLine("1 - Create");
+        Console.WriteLine("2 - Modify");
+        int option = ExtendedConsole.ReadInteger("Válasszon műveletet: ", 1, 2);
+
+        switch (option)
+        {
+            case 1:
+                await CreateAsync();
+                break;
+            case 2:
+                await ModifyAsync();
+                break;
+        }
+    }
+
+    public static async Task ModifyAsync()
+    {
+        Console.Clear();
+
+        int id = ExtendedConsole.ReadInteger("Adja meg a sör azonosítóját!: ");
+
+        Beer beer = await BeerService.GetByIdAsync(id);
+        AppState.SetBeer(beer);
+        beer.WriteToConsole();
+
+        Console.WriteLine();
+        Console.WriteLine("1 - Torles");
+        Console.WriteLine("2 - Szerkesztes");
+        int option = ExtendedConsole.ReadInteger("Válasszon műveletet: ", 1, 2);
+
+        switch (option)
+        {
+            case 1:
+                await DeleteAsync();
+                break;
+            case 2:
+                await UpdateAsync();
+                break;
+        }
     }
 }
