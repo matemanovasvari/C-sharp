@@ -92,9 +92,11 @@ public static class Menu
 
         beer.Image = ExtendedConsole.ReadString("Image: ");
 
-        beer.Rating.Average = ExtendedConsole.ReadDouble("Average: ");
+        double average = ExtendedConsole.ReadDouble("Average: ");
+ 
+        int reviews = ExtendedConsole.ReadInteger("Reviews: ");
 
-        beer.Rating.Reviews = ExtendedConsole.ReadInteger("Reviews: ");
+        beer.Rating = New Rating { Average = average; Reviews = reviews; }
 
         AppState.Create(beer);
 
