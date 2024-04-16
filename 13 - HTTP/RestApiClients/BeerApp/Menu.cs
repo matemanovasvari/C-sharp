@@ -98,8 +98,6 @@ public static class Menu
 
         beer.Rating = New Rating { Average = average; Reviews = reviews; }
 
-        AppState.Create(beer);
-
         return beer;
     }
 
