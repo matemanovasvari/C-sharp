@@ -20,7 +20,7 @@ public static class Menu
             await Main();
         }
 
-        bool isSuccesful = await BeerService.SendDeleteRequestAsync("api/beer/delete", AppState.GetId());
+        bool isSuccesful = await BeerService.DeleteAsync(AppState.GetId());
 
         if (isSuccesful)
         {
@@ -39,7 +39,7 @@ public static class Menu
 
         Beer updateBeerData = GetUpdatedBeerData();
 
-        await BeerService.SendPutRequestAsync("api/beer/update", updateBeerData);
+        await BeerService.UpdateAsync(updateBeerData);
 
         Console.WriteLine($"Sikerült a módosítás");
         await Task.Delay(3000);
@@ -52,13 +52,20 @@ public static class Menu
         Console.Clear();
         
         Beer beer = GetCreatedBeerData();
+        beer = await BeerService.CreateById(beer);
 
-        BeerService.CreateById(beer);
-
-        Console.WriteLine($"Sikerült a létrehozás");
-        await Task.Delay(3000);
-
-        await Main();
+        if (beer.Id > 0)
+        {
+            Console.WriteLine($"Sikerült a létrehozás");
+            await Task.Delay(3000);
+            await Main();
+        }
+        else
+        {
+            Console.WriteLine($"Nem sikerült a létrehozás");
+            await Task.Delay(3000);
+            await Main();
+        }
     }
 
     private static Beer GetUpdatedBeerData()
@@ -83,8 +90,6 @@ public static class Menu
     {
         Beer beer = new Beer();
 
-        beer.Id = ExtendedConsole.ReadInteger("Id: ");
-
         double price = ExtendedConsole.ReadDouble("Price: ");
         beer.Price = $"${Math.Abs(price)}";
 
@@ -96,7 +101,7 @@ public static class Menu
  
         int reviews = ExtendedConsole.ReadInteger("Reviews: ");
 
-        beer.Rating = New Rating { Average = average; Reviews = reviews; }
+        beer.Rating = new Rating { Average = average, Reviews = reviews };
 
         return beer;
     }

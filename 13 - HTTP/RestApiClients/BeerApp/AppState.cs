@@ -1,4 +1,4 @@
-just﻿namespace BeerApp;
+namespace BeerApp;
 
 public static class AppState
 {
