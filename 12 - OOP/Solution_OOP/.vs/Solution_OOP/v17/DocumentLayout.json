@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{758A98DF-EE12-45A3-81BB-17F54BA20E93}|01_Constructor\\01_Constructor.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\01_constructor\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{758A98DF-EE12-45A3-81BB-17F54BA20E93}|01_Constructor\\01_Constructor.csproj|solutionrelative:01_constructor\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\03_abstractclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|solutionrelative:03_abstractclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{758A98DF-EE12-45A3-81BB-17F54BA20E93}|01_Constructor\\01_Constructor.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\01_constructor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{758A98DF-EE12-45A3-81BB-17F54BA20E93}|01_Constructor\\01_Constructor.csproj|solutionrelative:01_constructor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\03_abstractclass\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|solutionrelative:03_abstractclass\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\03_abstractclass\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|solutionrelative:03_abstractclass\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\03_abstractclass\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|solutionrelative:03_abstractclass\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Fruit.cs",
-              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\01_Constructor\\Fruit.cs",
-              "RelativeDocumentMoniker": "01_Constructor\\Fruit.cs",
-              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\01_Constructor\\Fruit.cs",
-              "RelativeToolTip": "01_Constructor\\Fruit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAA5AAAA",
+              "DocumentIndex": 1,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Truck.cs",
+              "RelativeDocumentMoniker": "03_AbstractClass\\Truck.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Truck.cs",
+              "RelativeToolTip": "03_AbstractClass\\Truck.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T07:05:14.831Z",
+              "WhenOpened": "2024-04-18T06:34:51.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\01_Constructor\\Program.cs",
-              "RelativeDocumentMoniker": "01_Constructor\\Program.cs",
-              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\01_Constructor\\Program.cs",
-              "RelativeToolTip": "01_Constructor\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Car.cs",
+              "RelativeDocumentMoniker": "03_AbstractClass\\Car.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Car.cs",
+              "RelativeToolTip": "03_AbstractClass\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T07:04:51.331Z",
+              "WhenOpened": "2024-04-18T06:30:58.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Vehicle.cs",
+              "RelativeDocumentMoniker": "03_AbstractClass\\Vehicle.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Vehicle.cs",
+              "RelativeToolTip": "03_AbstractClass\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T06:29:37.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Program.cs",
+              "RelativeDocumentMoniker": "03_AbstractClass\\Program.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Program.cs",
+              "RelativeToolTip": "03_AbstractClass\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T06:29:09.804Z",
               "EditorCaption": ""
             }
           ]

@@ -2,7 +2,6 @@
 
 public class Fruit
 {
-
     public string Name { get; set; }
 
     public int Calories { get; set; }
@@ -10,8 +9,11 @@ public class Fruit
     public double Price { get; set; }
 
     public List<string> Importers { get; private set; } = new List<string>();
+
+    public bool HasImporter => Importers.Any();
     public Fruit()
     {
+        //Importers = new List<string>();
     }
 
     public Fruit(string name, int calories, double price)

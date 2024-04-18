@@ -6,7 +6,8 @@ apple.Name = "apple";
 apple.Calories = 60;
 apple.Price = 450;
 apple.Importers.Add("ABCS");
-apple.Importers = new List<string>(); //private set miatt
+//apple.Importers = new List<string>(); private set miatt nem működne
+//apple.HasImporter = true; //Property or indexer 'property' cannot be assigned to -- it is read only
 
 Fruit orange = new Fruit
 {

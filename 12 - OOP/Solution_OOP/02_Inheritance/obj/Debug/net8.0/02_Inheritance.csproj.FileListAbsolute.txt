@@ -1,0 +1,15 @@
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\bin\Debug\net8.0\02_Inheritance.exe
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\bin\Debug\net8.0\02_Inheritance.deps.json
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\bin\Debug\net8.0\02_Inheritance.runtimeconfig.json
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\bin\Debug\net8.0\02_Inheritance.dll
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\bin\Debug\net8.0\02_Inheritance.pdb
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\02_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\02_Inheritance.AssemblyInfoInputs.cache
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\02_Inheritance.AssemblyInfo.cs
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\02_Inheritance.csproj.CoreCompileInputs.cache
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\02_Inheritance.sourcelink.json
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\02_Inheritance.dll
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\refint\02_Inheritance.dll
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\02_Inheritance.pdb
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\02_Inheritance.genruntimeconfig.cache
+D:\Documents\Iskola\C-sharp\12 - OOP\Solution_OOP\02_Inheritance\obj\Debug\net8.0\ref\02_Inheritance.dll
