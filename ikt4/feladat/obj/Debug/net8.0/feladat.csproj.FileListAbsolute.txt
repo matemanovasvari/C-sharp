@@ -1,0 +1,4 @@
+E:\IKT4\feladat\obj\Debug\net8.0\feladat.GeneratedMSBuildEditorConfig.editorconfig
+E:\IKT4\feladat\obj\Debug\net8.0\feladat.AssemblyInfoInputs.cache
+E:\IKT4\feladat\obj\Debug\net8.0\feladat.AssemblyInfo.cs
+E:\IKT4\feladat\obj\Debug\net8.0\feladat.csproj.CoreCompileInputs.cache
