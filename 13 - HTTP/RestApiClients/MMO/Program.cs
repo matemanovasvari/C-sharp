@@ -1,0 +1,1 @@
+﻿await MMOApp.Menu.Main();

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\02_Inheritance.csproj": {}
+    "E:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\02_Inheritance.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\02_Inheritance.csproj": {
+    "E:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\02_Inheritance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\02_Inheritance.csproj",
+        "projectUniqueName": "E:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\02_Inheritance.csproj",
         "projectName": "02_Inheritance",
-        "projectPath": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\02_Inheritance.csproj",
-        "packagesPath": "C:\\Users\\b1nagmat2\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\obj\\",
+        "projectPath": "E:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\02_Inheritance.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\02_Inheritance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\b1nagmat2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

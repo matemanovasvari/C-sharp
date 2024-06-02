@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\Iskola\\C-sharp\\IKT4 fix\\fix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6950E329-3DEA-453D-9724-842651294964}|fixedsolution\\fixedsolution.csproj|d:\\documents\\iskola\\c-sharp\\ikt4 fix\\fix\\fixedsolution\\source\\diakok.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6950E329-3DEA-453D-9724-842651294964}|fixedsolution\\fixedsolution.csproj|solutionrelative:fixedsolution\\source\\diakok.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6950E329-3DEA-453D-9724-842651294964}|fixedsolution\\fixedsolution.csproj|d:\\documents\\iskola\\c-sharp\\ikt4 fix\\fix\\fixedsolution\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6950E329-3DEA-453D-9724-842651294964}|fixedsolution\\fixedsolution.csproj|solutionrelative:fixedsolution\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "diakok.json",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\IKT4 fix\\fix\\fixedsolution\\source\\diakok.json",
+              "RelativeDocumentMoniker": "fixedsolution\\source\\diakok.json",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\IKT4 fix\\fix\\fixedsolution\\source\\diakok.json",
+              "RelativeToolTip": "fixedsolution\\source\\diakok.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-09T06:22:51.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\IKT4 fix\\fix\\fixedsolution\\FileService.cs",
+              "RelativeDocumentMoniker": "fixedsolution\\FileService.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\IKT4 fix\\fix\\fixedsolution\\FileService.cs",
+              "RelativeToolTip": "fixedsolution\\FileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:19:38.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

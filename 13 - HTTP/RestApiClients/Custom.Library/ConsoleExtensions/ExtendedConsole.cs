@@ -1,4 +1,4 @@
-﻿namespace Custom.Library.ConsoleExtension;
+﻿namespace Custom.Library.ConsoleExtensions;
 
 public static class ExtendedConsole
 {

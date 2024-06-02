@@ -1,0 +1,5 @@
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Soluution\Solution_Final\obj\Debug\net8.0\Solution_Final.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Soluution\Solution_Final\obj\Debug\net8.0\Solution_Final.AssemblyInfoInputs.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Soluution\Solution_Final\obj\Debug\net8.0\Solution_Final.AssemblyInfo.cs
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Soluution\Solution_Final\obj\Debug\net8.0\Solution_Final.csproj.CoreCompileInputs.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Soluution\Solution_Final\obj\Debug\net8.0\Solution_Final.sourcelink.json

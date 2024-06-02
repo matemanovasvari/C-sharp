@@ -1,0 +1,17 @@
+[
+  {
+    "StudentID": 1,
+    "SubjectNameAndMarks": {
+      "nyelvtan": [ 4, 2, 5, 5 ],
+      "kémia": [ 5, 3, 3, 4, 2, 3 ]
+    }
+  },
+
+  {
+    "StudentID": 2,
+    "SubjectNameAndMarks": {
+      "matek": [ 5, 3, 3, 4 ],
+      "irodalom": [ 1, 2, 5, 3 ]
+    }
+  }
+]

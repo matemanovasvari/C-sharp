@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\03_abstractclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|solutionrelative:03_abstractclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\1. - feladat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|solutionrelative:1. - feladat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\03_abstractclass\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|solutionrelative:03_abstractclass\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\1. - feladat\\pekseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|solutionrelative:1. - feladat\\pekseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\03_abstractclass\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|solutionrelative:03_abstractclass\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\1. - feladat\\kave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|solutionrelative:1. - feladat\\kave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\03_abstractclass\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CC955F-31DD-44B5-9CAE-D5538583F371}|03_AbstractClass\\03_AbstractClass.csproj|solutionrelative:03_abstractclass\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\1. - feladat\\pogacsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|solutionrelative:1. - feladat\\pogacsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|d:\\documents\\iskola\\c-sharp\\12 - oop\\solution_oop\\1. - feladat\\peksutemeny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30C2855-8E23-4BE2-BAAA-F59DDFB927E8}|1. - feladat\\1. - feladat.csproj|solutionrelative:1. - feladat\\peksutemeny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Truck.cs",
-              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Truck.cs",
-              "RelativeDocumentMoniker": "03_AbstractClass\\Truck.cs",
-              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Truck.cs",
-              "RelativeToolTip": "03_AbstractClass\\Truck.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Program.cs",
+              "RelativeDocumentMoniker": "1. - feladat\\Program.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Program.cs",
+              "RelativeToolTip": "1. - feladat\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T06:34:51.701Z",
+              "WhenOpened": "2024-05-09T07:30:54.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Car.cs",
-              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Car.cs",
-              "RelativeDocumentMoniker": "03_AbstractClass\\Car.cs",
-              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Car.cs",
-              "RelativeToolTip": "03_AbstractClass\\Car.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Title": "Kave.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Kave.cs",
+              "RelativeDocumentMoniker": "1. - feladat\\Kave.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Kave.cs",
+              "RelativeToolTip": "1. - feladat\\Kave.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T06:30:58.102Z",
+              "WhenOpened": "2024-05-09T06:02:04.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pekseg.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Pekseg.cs",
+              "RelativeDocumentMoniker": "1. - feladat\\Pekseg.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Pekseg.cs",
+              "RelativeToolTip": "1. - feladat\\Pekseg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:11:11.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Vehicle.cs",
-              "RelativeDocumentMoniker": "03_AbstractClass\\Vehicle.cs",
-              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Vehicle.cs",
-              "RelativeToolTip": "03_AbstractClass\\Vehicle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Title": "Pogacsa.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Pogacsa.cs",
+              "RelativeDocumentMoniker": "1. - feladat\\Pogacsa.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Pogacsa.cs",
+              "RelativeToolTip": "1. - feladat\\Pogacsa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T06:29:37.504Z",
+              "WhenOpened": "2024-05-09T05:53:39.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Program.cs",
-              "RelativeDocumentMoniker": "03_AbstractClass\\Program.cs",
-              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\03_AbstractClass\\Program.cs",
-              "RelativeToolTip": "03_AbstractClass\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAQAAAA",
+              "DocumentIndex": 4,
+              "Title": "Peksutemeny.cs",
+              "DocumentMoniker": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Peksutemeny.cs",
+              "RelativeDocumentMoniker": "1. - feladat\\Peksutemeny.cs",
+              "ToolTip": "D:\\Documents\\Iskola\\C-sharp\\12 - OOP\\Solution_OOP\\1. - feladat\\Peksutemeny.cs",
+              "RelativeToolTip": "1. - feladat\\Peksutemeny.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T06:29:09.804Z",
+              "WhenOpened": "2024-05-09T05:36:39.382Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,67 @@
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.csproj.AssemblyReference.cache
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.AssemblyInfoInputs.cache
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.AssemblyInfo.cs
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.csproj.CoreCompileInputs.cache
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.MvcApplicationPartsAssemblyInfo.cs
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.MvcApplicationPartsAssemblyInfo.cache
+D:\Temp\RestApiServers\bin\Debug\net8.0\appsettings.Development.json
+D:\Temp\RestApiServers\bin\Debug\net8.0\appsettings.json
+D:\Temp\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.exe
+D:\Temp\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.deps.json
+D:\Temp\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.runtimeconfig.json
+D:\Temp\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.dll
+D:\Temp\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.pdb
+D:\Temp\RestApiServers\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Temp\RestApiServers\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Temp\RestApiServers\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Temp\RestApiServers\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Temp\RestApiServers\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Temp\RestApiServers\obj\Debug\net8.0\staticwebassets.build.json
+D:\Temp\RestApiServers\obj\Debug\net8.0\staticwebassets.development.json
+D:\Temp\RestApiServers\obj\Debug\net8.0\staticwebassets\msbuild.MessageSenderSolution.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Temp\RestApiServers\obj\Debug\net8.0\staticwebassets\msbuild.build.MessageSenderSolution.props
+D:\Temp\RestApiServers\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MessageSenderSolution.props
+D:\Temp\RestApiServers\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MessageSenderSolution.props
+D:\Temp\RestApiServers\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Temp\RestApiServers\obj\Debug\net8.0\scopedcss\bundle\MessageSenderSolution.styles.css
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageS.D3268C95.Up2Date
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.dll
+D:\Temp\RestApiServers\obj\Debug\net8.0\refint\MessageSenderSolution.dll
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.pdb
+D:\Temp\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.genruntimeconfig.cache
+D:\Temp\RestApiServers\obj\Debug\net8.0\ref\MessageSenderSolution.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\appsettings.Development.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\appsettings.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.exe
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.deps.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.runtimeconfig.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\MessageSenderSolution.pdb
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.csproj.AssemblyReference.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.AssemblyInfoInputs.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.AssemblyInfo.cs
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.csproj.CoreCompileInputs.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.MvcApplicationPartsAssemblyInfo.cs
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.MvcApplicationPartsAssemblyInfo.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.sourcelink.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\staticwebassets.build.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\staticwebassets.development.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\staticwebassets\msbuild.MessageSenderSolution.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\staticwebassets\msbuild.build.MessageSenderSolution.props
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MessageSenderSolution.props
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MessageSenderSolution.props
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\scopedcss\bundle\MessageSenderSolution.styles.css
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.csproj.CopyComplete
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\refint\MessageSenderSolution.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.pdb
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\MessageSenderSolution.genruntimeconfig.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\RestApiServers\obj\Debug\net8.0\ref\MessageSenderSolution.dll

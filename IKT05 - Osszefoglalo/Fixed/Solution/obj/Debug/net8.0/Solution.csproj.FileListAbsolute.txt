@@ -1,0 +1,16 @@
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\bin\Debug\net8.0\Solution.exe
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\bin\Debug\net8.0\data\messages.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\bin\Debug\net8.0\Solution.deps.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\bin\Debug\net8.0\Solution.runtimeconfig.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\bin\Debug\net8.0\Solution.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\bin\Debug\net8.0\Solution.pdb
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\Solution.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\Solution.AssemblyInfoInputs.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\Solution.AssemblyInfo.cs
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\Solution.csproj.CoreCompileInputs.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\Solution.sourcelink.json
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\Solution.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\refint\Solution.dll
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\Solution.pdb
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\Solution.genruntimeconfig.cache
+E:\Documents\Iskola\C-sharp\IKT05 - Osszefoglalo\Fixed\Solution\obj\Debug\net8.0\ref\Solution.dll
