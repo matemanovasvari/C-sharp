@@ -1,17 +1,11 @@
-﻿using System.IO.Compression;
-using System.Net.Http.Headers;
-using System.Net.Mime;
-using System.Text;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-
+﻿
 namespace HttpServices;
 
 public class HttpService
 {
     private static HttpClient httpClient;
     private static JsonSerializerOptions options;
-    private const string baseURL = "https://localhost:5000";
+    private const string baseURL = "https://localhost:7112";
 
     static HttpService()
     {

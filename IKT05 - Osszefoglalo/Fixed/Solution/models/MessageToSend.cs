@@ -1,4 +1,5 @@
-﻿public class MessageToSend : Message
+﻿
+public class MessageToSend
 {
     public string Content { get; set; }
 
@@ -13,15 +14,5 @@
     {
         Content = content;
         System = system;
-    }
-
-    public override MessageToSend FormatMessage()
-    {
-        throw new NotImplementedException();
-    }
-
-    public override Task<Response> Send()
-    {
-        throw new NotImplementedException();
     }
 }

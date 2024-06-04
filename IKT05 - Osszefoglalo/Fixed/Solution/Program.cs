@@ -4,31 +4,12 @@ static async Task SendFormattedMessageAsync()
 {
     DateTime actualDate = DateTime.Now;
 
-    List<Message> readMessages = await FileService.ReadFromFileAsync<Message>("messages");
-    List<MessageToSend> sentMessage = new List<MessageToSend>();
-    MessageToSend valami = null;
-
-    foreach (Message message in readMessages)
-    {
-        switch (message.System.ToLower())
-        {
-            case "ios":
-                valami = new MessageToSend(new IOS(message.System, message.FirstName, message.LastName, message.MobileNumber, message.MessageText).ToString(), 0);
-                break;
-            case "android":
-                valami = new MessageToSend(new Android(message.System, message.FirstName, message.LastName, message.MobileNumber, message.MessageText).ToString(), 1);
-                break;
-            case "windows":
-                valami = new MessageToSend(new Windows(message.System, message.FirstName, message.LastName, message.MobileNumber, message.MessageText).ToString(), 2);
-                break;
-        }
-        sentMessage.Add(valami);
-    }
+    List<Message> readMessages = FormatMessageBeforeSending(await FileService.ReadFromFileAsync<ReadMessage>("messages"));
 
     List<Response> responses = new List<Response>();
     Response response = new Response();
 
-    foreach (MessageToSend message in sentMessage)
+    foreach (Message message in readMessages)
     {
         response = await message.Send();
         responses.Add(response);
@@ -39,7 +20,7 @@ static async Task SendFormattedMessageAsync()
 
     foreach (Response item in responses)
     {
-        if (item.Success)
+        if (item.IsSuccess)
         {
             successes.Add(item);
         }
@@ -49,8 +30,8 @@ static async Task SendFormattedMessageAsync()
         }
     }
 
-    await FileService.WriteToTxtAsync<Response>(successes, $"delivered_{actualDate}");
-    await FileService.WriteToTxtAsync<Response>(errors, $"delivered_{actualDate}");
+    await FileService.WriteToTxtAsync<Response>(successes, $"delivered_{actualDate.ToString("yyyy-MM-dd")}");
+    await FileService.WriteToTxtAsync<Response>(errors, $"not_delivered_{actualDate.ToString("yyyy-MM-dd")}");
 
     CreateReportAsync(successes, errors);
 }
@@ -67,5 +48,29 @@ static async void CreateReportAsync(List<Response> successes, List<Response> err
         report.Errors.Add(new Error(error.ErrorMessage, 1));
     }
 
-    await FileService.WriteToFileAsync([report], $"report_{DateTime.Now}");
+    await FileService.WriteToFileAsync([report], $"report_{DateTime.Now.ToString("yyyy-MM-dd")}");
+}
+
+static List<Message> FormatMessageBeforeSending(List<ReadMessage> messages)
+{
+    List<Message> formattedMesssages = new List<Message>();
+    Message system = null;
+
+    foreach (ReadMessage message in messages)
+    {
+        switch (message.System.ToLower())
+        {
+            case "ios":
+                system = new IOS(message.System, message.FirstName, message.LastName, message.MobileNumber, message.MessageText);
+                break;
+            case "android":
+                system = new Android(message.System, message.FirstName, message.LastName, message.MobileNumber, message.MessageText);
+                break;
+            case "windows":
+                system = new Windows(message.System, message.FirstName, message.LastName, message.MobileNumber, message.MessageText);
+                break;
+        }
+        formattedMesssages.Add(system);
+    }
+    return formattedMesssages;
 }

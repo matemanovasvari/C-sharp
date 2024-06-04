@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Text.Json;
-using System.Text;
-
+﻿
 namespace FileServices;
 
 public static class FileService
@@ -19,6 +16,7 @@ public static class FileService
 
     public static async Task WriteToFileAsync<T>(List<T> list, string fileName)
     {
+        Directory.CreateDirectory("reports");
         string path = Path.Combine("reports", $"{fileName}.json");
         using FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write, FileShare.None);
         await JsonSerializer.SerializeAsync(fs, list);

@@ -1,27 +1,23 @@
-﻿public abstract class Message
+﻿
+public abstract class Message : IMessage
 {
-    [JsonPropertyName("system")]
-    public string System { get; set; }
+    public string System {  get; set; }
 
-    [JsonPropertyName("firstName")]
     public string FirstName { get; set; }
 
-    [JsonPropertyName("lastName")]
     public string LastName { get; set; }
 
-    [JsonPropertyName("mobileNumber")]
     public string MobileNumber { get; set; }
-    
-    [JsonPropertyName("message")]
-    public string MessageText { get; set; }
 
+    public string MessageText { get; set; }
     public abstract MessageToSend FormatMessage();
 
     public abstract Task<Response> Send();
     public Message()
     {
-
+        
     }
+
     public Message(string system, string firstName, string lastName, string mobileNumber, string messageText)
     {
         System = system;
@@ -30,4 +26,6 @@
         MobileNumber = mobileNumber;
         MessageText = messageText;
     }
+
+
 }

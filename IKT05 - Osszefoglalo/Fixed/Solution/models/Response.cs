@@ -1,14 +1,23 @@
-﻿
-using System.Text.Json.Serialization;
-
-public class Response
+﻿public class Response
 {
     [JsonPropertyName("success")]
-    public bool Success { get; set; }
+    public bool IsSuccess { get; set; }
 
     [JsonPropertyName("errorMessage")]
     public string ErrorMessage { get; set; }
 
     [JsonPropertyName("dateTime")]
-    public DateTime DateTime { get; set; }
+    public DateTime Date { get; set; }
+
+    public override string ToString()
+    {
+        if (IsSuccess)
+        {
+            return $"{IsSuccess} - {Date}";
+        }
+        else
+        {
+            return $"{IsSuccess} - {ErrorMessage} - {Date}";
+        }
+    }
 }
